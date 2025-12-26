@@ -1,6 +1,6 @@
 import axios from "axios";
-import logger from "../helpers/logger";
-import type { OMDBDataType } from "../types";
+import logger from "../helpers/logger.js";
+import type { OMDBDataType } from "../types.js";
 
 const OMDB_URL = process.env.OMDB_URL;
 const OMDB_API_KEY = process.env.OMDB_API_KEY;

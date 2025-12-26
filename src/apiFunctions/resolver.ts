@@ -1,8 +1,8 @@
 import axios from "axios";
 import type { Request, Response } from "express";
-import logger from "../helpers/logger";
-import type { AddMagnetDataType, CacheItem, RealDebridInfoDataType, RealDebridUnrestrictDataType } from "../types";
-import { somethingWentWrong } from "../helpers/helpers";
+import logger from "../helpers/logger.js";
+import type { AddMagnetDataType, CacheItem, RealDebridInfoDataType, RealDebridUnrestrictDataType } from "../types.js";
+import { somethingWentWrong } from "../helpers/helpers.js";
 
 const REAL_DEBRID_API_KEY = process.env.REAL_DEBRID_API_KEY;
 const PORT = process.env.PORT;

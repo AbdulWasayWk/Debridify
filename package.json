@@ -21,6 +21,7 @@
 		"start:prod": "node dist/index.js | npx pino-pretty"
 	},
 	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.13",
 		"@types/express": "^5.0.5",
 		"@types/node": "^24.10.1",
 		"pino-pretty": "^13.1.2",
