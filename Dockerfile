@@ -1,0 +1,20 @@
+# Dockerfile
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy package files and install dependencies
+COPY package*.json ./
+RUN npm ci
+
+# Copy source code
+COPY . .
+
+# Build TypeScript
+RUN npm run build
+
+# Expose your addon port (default for Stremio addons is 7000)
+EXPOSE 7000
+
+# Start your app
+CMD ["npm", "run", "start:prod"]
