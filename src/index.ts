@@ -89,8 +89,8 @@ app.use("/public", express.static("public"));
 app.get("/resolve", resolveMagnetThroughRealDebrid);
 
 // Start the server
-const PORT = process.env.PORT;
-app.listen(PORT, () => {
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 7000;
+app.listen(PORT, "0.0.0.0", () => {
 	logger.info({ msg: `✅ Addon Started` });
-	logger.info({ msg: `Addon available at http://localhost:${PORT}/manifest.json` });
+	logger.info({ msg: `Addon available at http://<host-ip>:${PORT}/manifest.json` });
 });
