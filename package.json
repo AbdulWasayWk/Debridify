@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"start": "chcp 65001 && node --watch src/index.ts | npx pino-pretty",
+		"start": "chcp 65001 && tsx --watch src/index.ts | npx pino-pretty",
 		"start:prod": "node dist/index.js | npx pino-pretty"
 	},
 	"devDependencies": {
@@ -26,6 +26,7 @@
 		"@types/node": "^24.10.1",
 		"pino-pretty": "^13.1.2",
 		"prettier": "3.7.1",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
 	}
 }
