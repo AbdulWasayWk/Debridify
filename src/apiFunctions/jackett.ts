@@ -116,8 +116,6 @@ const getAnimeInfo = async (seriesDetails: OMDBSeriesDataType, season: string) =
 const handleAnimeTorrentFetching = async (animeDetails: AnilistAnimeDataType, season: string, episode: string) => {
 	const query = generateAnimeSearchQuery(animeDetails, season, episode);
 
-	logger.info({ query });
-
 	const indexers = ["nyaasi", "subsplease", "animetosho"];
 
 	const requests = indexers.map((id) =>
@@ -149,8 +147,6 @@ const handleAnimeTorrentFetching = async (animeDetails: AnilistAnimeDataType, se
 			}
 		}
 	});
-
-	logger.info({ torrents });
 
 	if (torrents.length) {
 		return buildTorrentArray(torrents);

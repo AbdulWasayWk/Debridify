@@ -3,11 +3,11 @@
 ENV file should be like:
 
 > PORT="7000"
-> LOG_TO_FILE="true"
+> LOG_TO_FILE="false"
 > REAL_DEBRID_API_KEY="YOUR_KEY_HERE"
 > OMDB_URL="https://www.omdbapi.com"
 > OMDB_API_KEY="YOUR_KEY_HERE"
-> JACKETT_URL="http://localhost:9117/api/v2.0"
+> JACKETT_URL="http://jackett:9117/api/v2.0"
 > JACKETT_API_KEY="YOUR_KEY_HERE"
 
 Steps to run:

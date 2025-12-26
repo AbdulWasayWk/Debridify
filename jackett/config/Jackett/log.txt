@@ -153,3 +153,8 @@
 2025-12-27 03:33:07.4600 Info Adding filter indexer ('type:private' indexer) ...
 2025-12-27 03:33:07.4686 Info Adding filter indexer ('type:semi-public' indexer) ...
 2025-12-27 03:33:07.6342 Info Jackett startup finished in 4.382 s
+2025-12-27 03:47:07.5349 Info Torznab search in AggregateSearch for Pluribus S01E08 => Found 93 releases [3176ms]
+2025-12-27 03:50:08.1991 Info Torznab search in AggregateSearch for Pluribus S01E08 => Found 93 releases [356ms]
+2025-12-27 03:50:15.6370 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases [432ms]
+2025-12-27 03:50:15.6778 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases [473ms]
+2025-12-27 03:50:18.2475 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases [3042ms]
