@@ -6,8 +6,8 @@ import type {
 	OMDBSeriesDataType,
 	QualityKey,
 	TorrentDataType,
-} from "../types.ts";
-import logger from "./logger.ts";
+} from "../types";
+import logger from "./logger";
 import type { Response } from "express";
 
 const PORT = process.env.PORT;

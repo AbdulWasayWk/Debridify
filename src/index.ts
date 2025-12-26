@@ -2,11 +2,11 @@ import { getRouter } from "@stremio-addon/node-express";
 import { AddonBuilder, type DefaultConfig, type Manifest, type StreamHandlerArgs } from "@stremio-addon/sdk";
 import "dotenv/config";
 import express from "express";
-import { searchMovieTorrents, searchSeriesTorrents } from "./apiFunctions/jackett.ts";
-import { getMediaDetailsFromOmdb } from "./apiFunctions/omdb.ts";
-import { resolveMagnetThroughRealDebrid } from "./apiFunctions/resolver.ts";
-import { generateCustomStreams, isMovie, isSeries } from "./helpers/helpers.ts";
-import logger from "./helpers/logger.ts";
+import { searchMovieTorrents, searchSeriesTorrents } from "./apiFunctions/jackett";
+import { getMediaDetailsFromOmdb } from "./apiFunctions/omdb";
+import { resolveMagnetThroughRealDebrid } from "./apiFunctions/resolver";
+import { generateCustomStreams, isMovie, isSeries } from "./helpers/helpers";
+import logger from "./helpers/logger";
 
 const manifest: Manifest = {
 	id: "com.AbdulWasayWk.Debridify",

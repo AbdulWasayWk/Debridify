@@ -1,7 +1,7 @@
 import axios from "axios";
 import { XMLParser } from "fast-xml-parser";
-import { buildTorrentArray, isAnime } from "../helpers/helpers.ts";
-import logger from "../helpers/logger.ts";
+import { buildTorrentArray, isAnime } from "../helpers/helpers";
+import logger from "../helpers/logger";
 import type {
 	AnilistAnimeDataType,
 	JackettResponseType,
@@ -9,7 +9,7 @@ import type {
 	OMDBMovieDataType,
 	OMDBSeriesDataType,
 	TorrentDataType,
-} from "../types.ts";
+} from "../types";
 
 const JACKETT_URL = process.env.JACKETT_URL;
 const JACKETT_API_KEY = process.env.JACKETT_API_KEY;

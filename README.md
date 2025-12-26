@@ -12,7 +12,7 @@ ENV file should be like:
 
 Steps to run:
 
--
 - Set ENVs
 - Run `docker-compose up -d jackett` and add the jackett API key to the ENVs
 - Start the app by running `docker-compose up -d app`
+- Run `docker-compose build app` to rebuild the app then run `docker-compose up -d app` to restart it

@@ -1,6 +1,6 @@
 import axios from "axios";
-import logger from "../helpers/logger.ts";
-import type { OMDBDataType } from "../types.ts";
+import logger from "../helpers/logger";
+import type { OMDBDataType } from "../types";
 
 const OMDB_URL = process.env.OMDB_URL;
 const OMDB_API_KEY = process.env.OMDB_API_KEY;
