@@ -26,7 +26,6 @@ const indexers = [
 	"kickasstorrentsws",
 	"nyaasi",
 	"subsplease",
-	"animetosho",
 	"extratorrentst",
 ];
 
@@ -157,4 +156,10 @@ export const generateCustomStreams = (torrents: Array<TorrentDataType>): Stream[
 			url: `http://localhost:${PORT}/resolve?magnet=${encodedMagnet}`,
 		};
 	});
+};
+
+export const getNumberWithOrdinal = (n: number) => {
+	var s = ["th", "st", "nd", "rd"],
+		v = n % 100;
+	return n + (s[(v - 20) % 10] || s[v] || s[0]);
 };

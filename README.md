@@ -1,6 +1,7 @@
 **A stremio extention that uses real debrid and jackett for torrent search and streaming**
 
-ENV file should be like:
+The Production ENVs should be like so:
+(The production ENV file name will be .env.docker)
 
 > PORT="7000"
 > LOG_TO_FILE="false"
@@ -9,6 +10,19 @@ ENV file should be like:
 > OMDB_API_KEY="YOUR_KEY_HERE"
 > JACKETT_URL="http://jackett:9117/api/v2.0"
 > JACKETT_API_KEY="YOUR_KEY_HERE"
+
+If you want to run the app in development environment, The DEV ENVs should be like so:
+(The development ENV file name will be .env)
+
+> PORT="7000"
+> LOG_TO_FILE="false"
+> REAL_DEBRID_API_KEY="YOUR_KEY_HERE"
+> OMDB_URL="https://www.omdbapi.com"
+> OMDB_API_KEY="YOUR_KEY_HERE"
+> JACKETT_URL="http://localhost:9117/api/v2.0"
+> JACKETT_API_KEY="YOUR_KEY_HERE"
+
+Use the `npm start` commant to run in development environment
 
 Steps to run:
 

@@ -8,7 +8,9 @@ services:
         ports:
             - "7000:7000"
         env_file:
-            - .env
+            - .env.docker
+        environment:
+            - NODE_ENV=production
         depends_on:
             - jackett
 

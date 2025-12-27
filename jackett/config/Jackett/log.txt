@@ -158,3 +158,165 @@
 2025-12-27 03:50:15.6370 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases [432ms]
 2025-12-27 03:50:15.6778 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases [473ms]
 2025-12-27 03:50:18.2475 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases [3042ms]
+2025-12-27 04:00:24.7607 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases (from cache) [0ms]
+2025-12-27 04:00:24.7607 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases (from cache) [0ms]
+2025-12-27 04:00:24.7607 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases (from cache) [0ms]
+2025-12-27 04:02:13.6070 Info Torznab search in AggregateSearch for Stranger Things S05E05 => Found 100 releases [5200ms]
+2025-12-27 04:19:19.1463 Info Jackett stopped
+2025-12-27 14:00:07.7153 Info Starting Jackett v0.24.545
+2025-12-27 14:00:08.3340 Info Environment version: 9.0.11 (/app/Jackett/)
+2025-12-27 14:00:08.3418 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2025-12-27 14:00:08.3524 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-12-27 14:00:08.3586 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2025-12-27 14:00:08.3656 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2025-12-27 14:00:08.3728 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-12-27 14:00:08.3788 Info App config/log directory: /config/Jackett
+2025-12-27 14:00:08.3855 Info Using proxy: Disabled
+2025-12-27 14:00:08.3918 Info Using FlareSolverr: No
+2025-12-27 14:00:08.3989 Info Using HTTP Client: HttpWebClient2
+2025-12-27 14:00:08.4048 Info Loading Native indexers ...
+2025-12-27 14:00:08.4351 Info Loaded 73 Native indexers.
+2025-12-27 14:00:08.4414 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-12-27 14:00:11.0746 Info Loaded 518 Cardigann indexers.
+2025-12-27 14:00:11.0782 Info Loaded 591 indexers in total
+2025-12-27 14:00:11.7111 Info Adding aggregate indexer ('all' indexer) ...
+2025-12-27 14:00:11.7186 Info Adding filter indexer ('type:public' indexer) ...
+2025-12-27 14:00:11.7255 Info Adding filter indexer ('type:private' indexer) ...
+2025-12-27 14:00:11.7322 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-12-27 14:00:11.9255 Info Jackett startup finished in 4.599 s
+2025-12-27 14:00:36.6188 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases [854ms]
+2025-12-27 14:00:37.2698 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases [1505ms]
+2025-12-27 14:00:39.3025 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases [3538ms]
+2025-12-27 14:05:15.4631 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases [425ms]
+2025-12-27 14:05:15.5190 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases [481ms]
+2025-12-27 14:05:18.3721 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases [3334ms]
+2025-12-27 14:05:21.4583 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:05:21.4583 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:05:21.4583 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:05:25.4330 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases [150ms]
+2025-12-27 14:05:25.5736 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases [290ms]
+2025-12-27 14:05:28.5845 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases [3302ms]
+2025-12-27 14:05:31.2660 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases (from cache) [0ms]
+2025-12-27 14:05:31.2660 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:05:31.2660 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases (from cache) [0ms]
+2025-12-27 14:05:38.2958 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E24 => Found 14 releases [148ms]
+2025-12-27 14:05:38.4395 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E24 => Found 0 releases [292ms]
+2025-12-27 14:05:41.4470 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E24 => Found 16 releases [3299ms]
+2025-12-27 14:05:44.9025 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E24 => Found 16 releases (from cache) [0ms]
+2025-12-27 14:05:44.9025 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E24 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:05:44.9025 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E24 => Found 14 releases (from cache) [0ms]
+2025-12-27 14:05:56.5749 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases [174ms]
+2025-12-27 14:05:56.6865 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases [285ms]
+2025-12-27 14:05:59.4018 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases [3002ms]
+2025-12-27 14:24:22.7459 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:22.7459 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases (from cache) [0ms]
+2025-12-27 14:24:22.7459 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases (from cache) [1ms]
+2025-12-27 14:24:23.8260 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:23.8260 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:23.8260 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:25.5365 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:25.5365 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:25.5368 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:32.3338 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:32.3338 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:32.3338 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E21 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:34.1700 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:34.1700 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:34.1700 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:42.1780 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:42.1780 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:42.1780 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:45.2988 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:45.2988 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:45.2988 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:48.1660 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:48.1660 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:48.1660 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:24:54.0735 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:24:54.0735 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:24:54.0735 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:25:00.1765 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:25:00.1765 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:25:00.1765 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:25:06.6094 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases (from cache) [0ms]
+2025-12-27 14:25:06.6094 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:25:06.6094 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases (from cache) [0ms]
+2025-12-27 14:52:47.8825 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E22 => Found 11 releases [509ms]
+2025-12-27 14:52:48.0032 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases [629ms]
+2025-12-27 14:52:51.2684 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases [3895ms]
+2025-12-27 14:52:56.7809 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases [162ms]
+2025-12-27 14:52:56.9013 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases [282ms]
+2025-12-27 14:52:59.4779 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases [2861ms]
+2025-12-27 14:53:01.9671 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases (from cache) [0ms]
+2025-12-27 14:53:01.9671 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases (from cache) [0ms]
+2025-12-27 14:53:01.9671 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases (from cache) [0ms]
+2025-12-27 15:00:11.5806 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2025-12-27 15:00:12.3804 Info New release found. Current version: v0.24.545 New version: v0.24.569
+2025-12-27 15:00:12.3849 Info Downloading release v0.24.569 It could take a while...
+2025-12-27 15:00:19.1425 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.569-639024444177378773/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "165" --NoRestart
+2025-12-27 15:00:19.1483 Info Updater started process id: 278
+2025-12-27 15:00:33.9422 Info Starting Jackett v0.24.569
+2025-12-27 15:00:34.3605 Info Environment version: 9.0.11 (/app/Jackett/)
+2025-12-27 15:00:34.3687 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2025-12-27 15:00:34.3793 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-12-27 15:00:34.3843 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2025-12-27 15:00:34.3910 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2025-12-27 15:00:34.3984 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-12-27 15:00:34.4044 Info App config/log directory: /config/Jackett
+2025-12-27 15:00:34.4109 Info Using proxy: Disabled
+2025-12-27 15:00:34.4166 Info Using FlareSolverr: No
+2025-12-27 15:00:34.4234 Info Using HTTP Client: HttpWebClient2
+2025-12-27 15:00:34.4294 Info Loading Native indexers ...
+2025-12-27 15:00:34.4594 Info Loaded 73 Native indexers.
+2025-12-27 15:00:34.4642 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-12-27 15:00:36.9709 Info Loaded 518 Cardigann indexers.
+2025-12-27 15:00:36.9758 Info Loaded 591 indexers in total
+2025-12-27 15:00:37.6253 Info Adding aggregate indexer ('all' indexer) ...
+2025-12-27 15:00:37.6328 Info Adding filter indexer ('type:public' indexer) ...
+2025-12-27 15:00:37.6395 Info Adding filter indexer ('type:private' indexer) ...
+2025-12-27 15:00:37.6466 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-12-27 15:00:37.6712 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.569-639024444177378773
+2025-12-27 15:00:37.8763 Info Jackett startup finished in 4.142 s
+2025-12-27 15:13:04.0307 Info Torznab search in Anime Tosho for Kusuriya no Hitorigoto S01E23 => Found 14 releases [571ms]
+2025-12-27 15:13:04.1339 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases [674ms]
+2025-12-27 15:13:06.7493 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases [3289ms]
+2025-12-27 15:13:47.5554 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E22 => Found 0 releases [275ms]
+2025-12-27 15:13:48.6192 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E21 => Found 0 releases [276ms]
+2025-12-27 15:13:50.8775 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E22 => Found 13 releases [3597ms]
+2025-12-27 15:13:51.5274 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases (from cache) [0ms]
+2025-12-27 15:13:51.5274 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases (from cache) [0ms]
+2025-12-27 15:13:53.2292 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E21 => Found 13 releases [4886ms]
+2025-12-27 15:13:56.0692 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E24 => Found 0 releases [277ms]
+2025-12-27 15:13:58.6245 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E24 => Found 16 releases [2834ms]
+2025-12-27 15:14:32.8261 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E24 => Found 0 releases (from cache) [0ms]
+2025-12-27 15:14:32.8261 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E24 => Found 16 releases (from cache) [0ms]
+2025-12-27 15:34:45.4208 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E24 => Found 0 releases (from cache) [0ms]
+2025-12-27 15:34:45.4208 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E24 => Found 16 releases (from cache) [0ms]
+2025-12-27 15:34:48.7884 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases [588ms]
+2025-12-27 15:34:51.6622 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases [3461ms]
+2025-12-27 15:34:53.9835 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 15:34:53.9835 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 15:51:55.5938 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto S01E23 => Found 0 releases [591ms]
+2025-12-27 15:51:58.1393 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto S01E23 => Found 16 releases [3138ms]
+2025-12-27 15:51:59.8504 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 15:51:59.8504 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 16:00:37.5276 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2025-12-27 16:00:38.2947 Info Jackett is already updated. Current version: v0.24.569
+2025-12-27 16:05:40.7031 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 16:05:40.7031 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 16:17:16.6040 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases [556ms]
+2025-12-27 16:17:19.4144 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases [3366ms]
+2025-12-27 16:18:52.0704 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3390ms]
+2025-12-27 16:19:16.8519 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3034ms]
+2025-12-27 16:19:33.9351 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3025ms]
+2025-12-27 16:36:51.6171 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3457ms]
+2025-12-27 16:36:52.6501 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season - 01 => Found 50 releases [4490ms]
+2025-12-27 16:36:53.0614 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season - 01 => Found 50 releases [4901ms]
+2025-12-27 16:37:27.0881 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [2933ms]
+2025-12-27 16:37:27.6706 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season - 01 => Found 75 releases [3515ms]
+2025-12-27 16:39:05.2750 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [372ms]
+2025-12-27 16:39:08.2901 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season - 01 S02E01 => Found 6 releases [3387ms]
+2025-12-27 16:42:57.1461 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [354ms]
+2025-12-27 16:43:00.7254 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 02x01 => Found 0 releases [3935ms]
+2025-12-27 16:43:00.8355 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season 1 => Found 50 releases [4045ms]
+2025-12-27 16:44:01.6955 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3138ms]
