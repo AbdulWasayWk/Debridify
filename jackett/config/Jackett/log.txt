@@ -320,3 +320,5 @@
 2025-12-27 16:43:00.7254 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 02x01 => Found 0 releases [3935ms]
 2025-12-27 16:43:00.8355 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season 2nd Season 1 => Found 50 releases [4045ms]
 2025-12-27 16:44:01.6955 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3138ms]
+2025-12-27 16:45:59.7225 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 16:45:59.7225 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
