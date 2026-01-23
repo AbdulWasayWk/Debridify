@@ -322,3 +322,884 @@
 2025-12-27 16:44:01.6955 Info Torznab search in AggregateSearch for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 11 releases [3138ms]
 2025-12-27 16:45:59.7225 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
 2025-12-27 16:45:59.7225 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 16:50:20.2778 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 16:50:20.2778 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 16:50:29.2806 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases [534ms]
+2025-12-27 16:50:33.1412 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases [4395ms]
+2025-12-27 16:50:50.3815 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases (from cache) [0ms]
+2025-12-27 16:50:50.3815 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases (from cache) [0ms]
+2025-12-27 18:59:28.4891 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases [727ms]
+2025-12-27 18:59:34.1321 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases [6369ms]
+2025-12-27 18:59:39.4289 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases [309ms]
+2025-12-27 18:59:43.1805 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases [4062ms]
+2025-12-27 18:59:46.7556 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases (from cache) [0ms]
+2025-12-27 18:59:46.7562 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:25:17.6409 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases (from cache) [0ms]
+2025-12-27 19:25:17.6412 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:25:28.4782 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases [562ms]
+2025-12-27 19:25:31.9964 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases [4080ms]
+2025-12-27 19:26:04.7686 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:04.7686 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases (from cache) [0ms]
+2025-12-27 19:26:32.8509 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases (from cache) [0ms]
+2025-12-27 19:26:32.8518 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:37.1940 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:37.1940 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases (from cache) [0ms]
+2025-12-27 19:26:43.4044 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:43.4044 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases (from cache) [0ms]
+2025-12-27 19:26:44.6382 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:44.6382 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E01 => Found 6 releases (from cache) [0ms]
+2025-12-27 19:26:47.1298 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases (from cache) [0ms]
+2025-12-27 19:26:47.1298 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:53.6619 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases (from cache) [0ms]
+2025-12-27 19:26:53.6619 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases (from cache) [0ms]
+2025-12-27 19:51:40.4253 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases (from cache) [0ms]
+2025-12-27 19:51:40.4253 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases (from cache) [0ms]
+2025-12-27 20:44:14.2302 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 0 releases [624ms]
+2025-12-27 20:44:20.4431 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 4 releases [6837ms]
+2025-12-27 21:16:06.8500 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 4 releases (from cache) [0ms]
+2025-12-27 21:16:06.8500 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 0 releases (from cache) [0ms]
+2025-12-27 21:38:57.0293 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E05 => Found 0 releases [702ms]
+2025-12-27 21:39:00.3883 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E05 => Found 3 releases [4063ms]
+2025-12-27 23:21:03.0914 Info Jackett stopped
+2025-12-28 02:31:47.9123 Info Starting Jackett v0.24.569
+2025-12-28 02:31:48.5852 Info Environment version: 9.0.11 (/app/Jackett/)
+2025-12-28 02:31:48.5941 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2025-12-28 02:31:48.6043 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-12-28 02:31:48.6108 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2025-12-28 02:31:48.6182 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2025-12-28 02:31:48.6260 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-12-28 02:31:48.6332 Info App config/log directory: /config/Jackett
+2025-12-28 02:31:48.6417 Info Using proxy: Disabled
+2025-12-28 02:31:48.6486 Info Using FlareSolverr: No
+2025-12-28 02:31:48.6579 Info Using HTTP Client: HttpWebClient2
+2025-12-28 02:31:48.6647 Info Loading Native indexers ...
+2025-12-28 02:31:48.6982 Info Loaded 73 Native indexers.
+2025-12-28 02:31:48.7057 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-12-28 02:31:51.2991 Info Loaded 518 Cardigann indexers.
+2025-12-28 02:31:51.3036 Info Loaded 591 indexers in total
+2025-12-28 02:31:51.9726 Info Adding aggregate indexer ('all' indexer) ...
+2025-12-28 02:31:51.9812 Info Adding filter indexer ('type:public' indexer) ...
+2025-12-28 02:31:51.9872 Info Adding filter indexer ('type:private' indexer) ...
+2025-12-28 02:31:51.9949 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-12-28 02:31:52.1969 Info Jackett startup finished in 4.732 s
+2025-12-28 02:31:55.5633 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E07 => Found 0 releases [488ms]
+2025-12-28 02:31:55.5633 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E08 => Found 0 releases [718ms]
+2025-12-28 02:31:55.5633 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E06 => Found 0 releases [664ms]
+2025-12-28 02:31:55.7211 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E05 => Found 0 releases [457ms]
+2025-12-28 02:31:55.8030 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 0 releases [371ms]
+2025-12-28 02:31:56.4154 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 0 releases [276ms]
+2025-12-28 02:31:58.1246 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E08 => Found 2 releases [3279ms]
+2025-12-28 02:31:58.6261 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E06 => Found 3 releases [3727ms]
+2025-12-28 02:31:58.8202 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 0 releases [276ms]
+2025-12-28 02:31:59.6239 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E07 => Found 3 releases [4549ms]
+2025-12-28 02:31:59.9967 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E09 => Found 0 releases [275ms]
+2025-12-28 02:32:00.1111 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E05 => Found 3 releases [4847ms]
+2025-12-28 02:32:00.6246 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E04 => Found 4 releases [5193ms]
+2025-12-28 02:32:01.6251 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E03 => Found 4 releases [5486ms]
+2025-12-28 02:32:03.5280 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E02 => Found 5 releases [4983ms]
+2025-12-28 02:32:04.9873 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E09 => Found 2 releases [5266ms]
+2025-12-28 02:32:10.7556 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 0 releases [275ms]
+2025-12-28 02:32:13.2553 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 2 releases [2775ms]
+2025-12-28 02:53:39.5359 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 2 releases (from cache) [0ms]
+2025-12-28 02:53:39.5359 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 0 releases (from cache) [0ms]
+2025-12-28 03:31:51.8189 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2025-12-28 03:31:52.7652 Info Jackett is already updated. Current version: v0.24.569
+2025-12-28 03:42:33.0579 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 0 releases [550ms]
+2025-12-28 03:42:35.5516 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 2 releases [3043ms]
+2025-12-28 03:42:51.8584 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E09 => Found 0 releases [290ms]
+2025-12-28 03:42:54.3790 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E09 => Found 2 releases [2811ms]
+2025-12-28 03:42:54.4996 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 0 releases [293ms]
+2025-12-28 03:42:57.2712 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E10 => Found 2 releases [3064ms]
+2025-12-28 03:42:59.0590 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 2 releases (from cache) [0ms]
+2025-12-28 03:42:59.0590 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 0 releases (from cache) [0ms]
+2025-12-28 03:47:36.9539 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 2 releases (from cache) [0ms]
+2025-12-28 03:47:36.9548 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 0 releases (from cache) [0ms]
+2025-12-28 03:47:42.2521 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 0 releases (from cache) [0ms]
+2025-12-28 03:47:42.2521 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 2 releases (from cache) [0ms]
+2025-12-28 03:48:52.0689 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 0 releases (from cache) [0ms]
+2025-12-28 03:48:52.0689 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E11 => Found 2 releases (from cache) [0ms]
+2025-12-28 03:48:54.5597 Info Torznab search in SubsPlease for Kusuriya no Hitorigoto 2nd Season S02E12 => Found 0 releases [483ms]
+2025-12-28 03:48:57.1353 Info Torznab search in Nyaa.si for Kusuriya no Hitorigoto 2nd Season S02E12 => Found 3 releases [3059ms]
+2026-01-04 22:05:39.9248 Info Starting Jackett v0.24.569
+2026-01-04 22:05:40.5777 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-04 22:05:40.5864 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-04 22:05:40.5965 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-04 22:05:40.6029 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-04 22:05:40.6112 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-04 22:05:40.6201 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-04 22:05:40.6272 Info App config/log directory: /config/Jackett
+2026-01-04 22:05:40.6362 Info Using proxy: Disabled
+2026-01-04 22:05:40.6444 Info Using FlareSolverr: No
+2026-01-04 22:05:40.6530 Info Using HTTP Client: HttpWebClient2
+2026-01-04 22:05:40.6605 Info Loading Native indexers ...
+2026-01-04 22:05:40.6964 Info Loaded 73 Native indexers.
+2026-01-04 22:05:40.7036 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-04 22:05:43.3751 Info Loaded 518 Cardigann indexers.
+2026-01-04 22:05:43.3792 Info Loaded 591 indexers in total
+2026-01-04 22:05:44.0192 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-04 22:05:44.0279 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-04 22:05:44.0351 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-04 22:05:44.0424 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-04 22:05:44.2365 Info Jackett startup finished in 4.815 s
+2026-01-04 22:06:10.3206 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E02 => Found 0 releases [1870ms]
+2026-01-04 22:06:12.2365 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E02 => Found 6 releases [3786ms]
+2026-01-04 23:05:43.8917 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-04 23:05:44.7156 Info New release found. Current version: v0.24.569 New version: v0.24.717
+2026-01-04 23:05:44.7204 Info Downloading release v0.24.717 It could take a while...
+2026-01-04 23:05:52.4155 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.717-639031647511398355/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "165" --NoRestart
+2026-01-04 23:05:52.4226 Info Updater started process id: 236
+2026-01-04 23:06:08.0318 Info Starting Jackett v0.24.717
+2026-01-04 23:06:08.4484 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-04 23:06:08.4570 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-04 23:06:08.4678 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-04 23:06:08.4730 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-04 23:06:08.4806 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-04 23:06:08.4884 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-04 23:06:08.4951 Info App config/log directory: /config/Jackett
+2026-01-04 23:06:08.5032 Info Using proxy: Disabled
+2026-01-04 23:06:08.5095 Info Using FlareSolverr: No
+2026-01-04 23:06:08.5176 Info Using HTTP Client: HttpWebClient2
+2026-01-04 23:06:08.5244 Info Loading Native indexers ...
+2026-01-04 23:06:08.5549 Info Loaded 71 Native indexers.
+2026-01-04 23:06:08.5611 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-04 23:06:11.1381 Info Loaded 525 Cardigann indexers.
+2026-01-04 23:06:11.1424 Info Loaded 596 indexers in total
+2026-01-04 23:06:11.7978 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-04 23:06:11.8057 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-04 23:06:11.8127 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-04 23:06:11.8202 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-04 23:06:11.8445 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.717-639031647511398355
+2026-01-04 23:06:12.0579 Info Jackett startup finished in 4.226 s
+2026-01-04 23:22:03.6090 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E04 => Found 0 releases [774ms]
+2026-01-04 23:22:08.0824 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E04 => Found 6 releases [5249ms]
+2026-01-04 23:43:59.7356 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E05 => Found 0 releases [570ms]
+2026-01-04 23:44:02.2190 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E05 => Found 6 releases [3054ms]
+2026-01-05 00:06:11.7149 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-05 00:06:12.5253 Info Jackett is already updated. Current version: v0.24.717
+2026-01-05 00:08:14.5258 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E06 => Found 0 releases [577ms]
+2026-01-05 00:08:17.8899 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E06 => Found 5 releases [3941ms]
+2026-01-05 00:29:27.8643 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E07 => Found 0 releases [561ms]
+2026-01-05 00:29:30.9145 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E07 => Found 5 releases [3611ms]
+2026-01-05 00:50:17.1995 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E08 => Found 0 releases [543ms]
+2026-01-05 00:50:20.2796 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E08 => Found 5 releases [3623ms]
+2026-01-05 01:11:15.7644 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E09 => Found 0 releases [561ms]
+2026-01-05 01:11:18.2411 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E09 => Found 5 releases [3038ms]
+2026-01-05 01:30:40.2716 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E10 => Found 0 releases [833ms]
+2026-01-05 01:30:42.6425 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E10 => Found 5 releases [3204ms]
+2026-01-05 01:53:29.4515 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E11 => Found 0 releases [532ms]
+2026-01-05 01:53:32.0037 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E11 => Found 4 releases [3084ms]
+2026-01-05 02:14:12.7196 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E12 => Found 0 releases [564ms]
+2026-01-05 02:14:15.2443 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E12 => Found 6 releases [3089ms]
+2026-01-05 02:36:22.5838 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E13 => Found 0 releases [547ms]
+2026-01-05 02:36:25.0471 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E13 => Found 6 releases [3011ms]
+2026-01-05 02:57:20.5927 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E12 => Found 0 releases [512ms]
+2026-01-05 02:57:20.9366 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E10 => Found 0 releases [273ms]
+2026-01-05 02:57:21.2254 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E11 => Found 0 releases [511ms]
+2026-01-05 02:57:21.4353 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E08 => Found 0 releases [269ms]
+2026-01-05 02:57:21.5154 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E09 => Found 0 releases [337ms]
+2026-01-05 02:57:21.6619 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E07 => Found 0 releases [342ms]
+2026-01-05 02:57:23.1128 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E12 => Found 6 releases [3032ms]
+2026-01-05 02:57:23.8106 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E06 => Found 0 releases [283ms]
+2026-01-05 02:57:24.6334 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E10 => Found 5 releases [3969ms]
+2026-01-05 02:57:25.3090 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E05 => Found 0 releases [284ms]
+2026-01-05 02:57:25.6356 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E11 => Found 4 releases [4921ms]
+2026-01-05 02:57:26.3390 Info Torznab search in SubsPlease for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E04 => Found 0 releases [284ms]
+2026-01-05 02:57:26.6361 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E08 => Found 5 releases [5469ms]
+2026-01-05 02:57:27.1277 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E09 => Found 5 releases [5957ms]
+2026-01-05 02:57:28.1261 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E07 => Found 5 releases [6807ms]
+2026-01-05 02:57:29.1245 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E06 => Found 5 releases [5596ms]
+2026-01-05 02:57:30.0463 Info Torznab search in Nyaa.si for Ore dake Level Up na Ken: Season 2 - Arise from the Shadow S02E05 => Found 6 releases [5021ms]
+2026-01-11 00:48:05.0032 Info Starting Jackett v0.24.717
+2026-01-11 00:48:05.5983 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-11 00:48:05.6066 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-11 00:48:05.6168 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-11 00:48:05.6228 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-11 00:48:05.6309 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-11 00:48:05.6385 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-11 00:48:05.6463 Info App config/log directory: /config/Jackett
+2026-01-11 00:48:05.6547 Info Using proxy: Disabled
+2026-01-11 00:48:05.6636 Info Using FlareSolverr: No
+2026-01-11 00:48:05.6765 Info Using HTTP Client: HttpWebClient2
+2026-01-11 00:48:05.6846 Info Loading Native indexers ...
+2026-01-11 00:48:05.7176 Info Loaded 71 Native indexers.
+2026-01-11 00:48:05.7256 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-11 00:48:08.5289 Info Loaded 525 Cardigann indexers.
+2026-01-11 00:48:08.5331 Info Loaded 596 indexers in total
+2026-01-11 00:48:09.1726 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-11 00:48:09.1800 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-11 00:48:09.1866 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-11 00:48:09.1940 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-11 00:48:09.4026 Info Jackett startup finished in 4.872 s
+2026-01-11 00:48:28.5988 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E16 => Found 0 releases [805ms]
+2026-01-11 00:48:28.7084 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E15 => Found 0 releases [530ms]
+2026-01-11 00:48:29.0475 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E14 => Found 0 releases [329ms]
+2026-01-11 00:48:29.0475 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E13 => Found 0 releases [315ms]
+2026-01-11 00:48:29.6751 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E12 => Found 0 releases [317ms]
+2026-01-11 00:48:31.5932 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E16 => Found 12 releases [3800ms]
+2026-01-11 00:48:32.4920 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E18 => Found 0 releases [316ms]
+2026-01-11 00:48:32.5939 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E15 => Found 12 releases [4416ms]
+2026-01-11 00:48:33.1482 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E14 => Found 13 releases [4430ms]
+2026-01-11 00:48:33.5625 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E13 => Found 12 releases [4828ms]
+2026-01-11 00:48:35.2414 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E12 => Found 13 releases [5884ms]
+2026-01-11 00:48:37.1802 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E18 => Found 13 releases [5004ms]
+2026-01-11 00:48:43.1358 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E19 => Found 0 releases [315ms]
+2026-01-11 00:48:46.0036 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E19 => Found 13 releases [3183ms]
+2026-01-11 01:08:49.7116 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E19 => Found 13 releases (from cache) [0ms]
+2026-01-11 01:08:49.7116 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E19 => Found 0 releases (from cache) [0ms]
+2026-01-11 01:08:52.3295 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E20 => Found 0 releases [678ms]
+2026-01-11 01:08:55.3978 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E20 => Found 13 releases [3746ms]
+2026-01-11 01:29:24.5683 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E20 => Found 13 releases (from cache) [7ms]
+2026-01-11 01:29:24.5683 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E20 => Found 0 releases (from cache) [7ms]
+2026-01-11 01:29:27.6892 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E21 => Found 0 releases [564ms]
+2026-01-11 01:29:30.5226 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E21 => Found 14 releases [3397ms]
+2026-01-11 01:48:09.0441 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-11 01:48:09.8831 Info New release found. Current version: v0.24.717 New version: v0.24.807
+2026-01-11 01:48:09.8878 Info Downloading release v0.24.807 It could take a while...
+2026-01-11 01:48:17.7446 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.807-639036928963242095/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "165" --NoRestart
+2026-01-11 01:48:17.7521 Info Updater started process id: 258
+2026-01-11 01:48:34.1544 Info Starting Jackett v0.24.807
+2026-01-11 01:48:34.5514 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-11 01:48:34.5591 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-11 01:48:34.5694 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-11 01:48:34.5784 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-11 01:48:34.5824 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-11 01:48:34.5892 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-11 01:48:34.5953 Info App config/log directory: /config/Jackett
+2026-01-11 01:48:34.6037 Info Using proxy: Disabled
+2026-01-11 01:48:34.6099 Info Using FlareSolverr: No
+2026-01-11 01:48:34.6176 Info Using HTTP Client: HttpWebClient2
+2026-01-11 01:48:34.6234 Info Loading Native indexers ...
+2026-01-11 01:48:34.6548 Info Loaded 72 Native indexers.
+2026-01-11 01:48:34.6598 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-11 01:48:37.0836 Info Loaded 530 Cardigann indexers.
+2026-01-11 01:48:37.0878 Info Loaded 602 indexers in total
+2026-01-11 01:48:37.7473 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-11 01:48:37.7546 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-11 01:48:37.7615 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-11 01:48:37.7684 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-11 01:48:37.7925 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.807-639036928963242095
+2026-01-11 01:48:38.0029 Info Jackett startup finished in 4.056 s
+2026-01-11 01:50:53.5613 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E21 => Found 0 releases [783ms]
+2026-01-11 01:50:56.0441 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E21 => Found 14 releases [3266ms]
+2026-01-11 01:50:59.1504 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E22 => Found 0 releases [318ms]
+2026-01-11 01:51:01.6649 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E22 => Found 13 releases [2834ms]
+2026-01-11 02:10:55.1044 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E22 => Found 13 releases (from cache) [0ms]
+2026-01-11 02:10:55.1044 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E22 => Found 0 releases (from cache) [0ms]
+2026-01-11 02:10:57.4260 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E23 => Found 0 releases [591ms]
+2026-01-11 02:10:59.8856 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E23 => Found 13 releases [3050ms]
+2026-01-11 02:28:55.8505 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E23 => Found 13 releases (from cache) [0ms]
+2026-01-11 02:28:55.8505 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E23 => Found 0 releases (from cache) [0ms]
+2026-01-11 02:28:58.5319 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E24 => Found 0 releases [529ms]
+2026-01-11 02:29:01.0718 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E24 => Found 13 releases [3068ms]
+2026-01-11 02:48:00.8174 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E24 => Found 13 releases (from cache) [0ms]
+2026-01-11 02:48:00.8174 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E24 => Found 0 releases (from cache) [0ms]
+2026-01-11 02:48:37.6965 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-11 02:48:38.4543 Info Jackett is already updated. Current version: v0.24.807
+2026-01-11 03:12:29.6403 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E23 => Found 0 releases [517ms]
+2026-01-11 03:12:29.9084 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E22 => Found 0 releases [445ms]
+2026-01-11 03:12:29.9701 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E21 => Found 0 releases [354ms]
+2026-01-11 03:12:30.0970 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E20 => Found 0 releases [462ms]
+2026-01-11 03:12:30.2037 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E19 => Found 0 releases [264ms]
+2026-01-11 03:12:30.4231 Info Torznab search in SubsPlease for Tu Bian Yingxiong X S01E18 => Found 0 releases [281ms]
+2026-01-11 03:12:32.6528 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E23 => Found 13 releases [3532ms]
+2026-01-11 03:12:33.6515 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E22 => Found 13 releases [4191ms]
+2026-01-11 03:12:34.1518 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E21 => Found 14 releases [4538ms]
+2026-01-11 03:12:34.6514 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E20 => Found 13 releases [5019ms]
+2026-01-11 03:12:35.1798 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E18 => Found 13 releases [5040ms]
+2026-01-11 03:12:35.6514 Info Torznab search in Nyaa.si for Tu Bian Yingxiong X S01E19 => Found 13 releases [5714ms]
+2026-01-16 00:42:08.2395 Info Starting Jackett v0.24.807
+2026-01-16 00:42:08.8931 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-16 00:42:08.9020 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-16 00:42:08.9182 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-16 00:42:08.9285 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-16 00:42:08.9367 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-16 00:42:08.9459 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-16 00:42:08.9542 Info App config/log directory: /config/Jackett
+2026-01-16 00:42:08.9634 Info Using proxy: Disabled
+2026-01-16 00:42:08.9712 Info Using FlareSolverr: No
+2026-01-16 00:42:08.9809 Info Using HTTP Client: HttpWebClient2
+2026-01-16 00:42:08.9884 Info Loading Native indexers ...
+2026-01-16 00:42:09.0231 Info Loaded 72 Native indexers.
+2026-01-16 00:42:09.0307 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-16 00:42:11.9597 Info Loaded 530 Cardigann indexers.
+2026-01-16 00:42:11.9644 Info Loaded 602 indexers in total
+2026-01-16 00:42:12.6652 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-16 00:42:12.6741 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-16 00:42:12.6820 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-16 00:42:12.6906 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-16 00:42:12.8925 Info Jackett startup finished in 5.109 s
+2026-01-16 00:42:48.4093 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E07 => Found 0 releases [747ms]
+2026-01-16 00:42:48.6898 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E05 => Found 0 releases [392ms]
+2026-01-16 00:42:49.0175 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E08 => Found 0 releases [1558ms]
+2026-01-16 00:42:49.0657 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E06 => Found 0 releases [1156ms]
+2026-01-16 00:42:51.6488 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E07 => Found 0 releases [3987ms]
+2026-01-16 00:42:52.5919 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E08 => Found 0 releases [5133ms]
+2026-01-16 00:42:52.6563 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E06 => Found 0 releases [4748ms]
+2026-01-16 00:42:52.7524 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [283ms]
+2026-01-16 00:42:53.1381 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E05 => Found 0 releases [4841ms]
+2026-01-16 00:42:56.5625 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [4093ms]
+2026-01-16 00:42:58.1476 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:42:58.1476 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:43:35.4409 Info Torznab search in AggregateSearch for Pluribus S01E09 => Found 84 releases [3290ms]
+2026-01-16 00:43:42.9682 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:43:42.9682 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:48:02.1943 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:48:02.1943 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases (from cache) [0ms]
+2026-01-16 00:51:13.4487 Info Jackett stopped
+2026-01-16 00:51:18.7923 Info Starting Jackett v0.24.807
+2026-01-16 00:51:19.2497 Info Environment version: 9.0.11 (/app/Jackett/)
+2026-01-16 00:51:19.2582 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-16 00:51:19.2693 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-16 00:51:19.2743 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-16 00:51:19.2813 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-16 00:51:19.2887 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-16 00:51:19.2949 Info App config/log directory: /config/Jackett
+2026-01-16 00:51:19.3030 Info Using proxy: Disabled
+2026-01-16 00:51:19.3093 Info Using FlareSolverr: No
+2026-01-16 00:51:19.3172 Info Using HTTP Client: HttpWebClient2
+2026-01-16 00:51:19.3240 Info Loading Native indexers ...
+2026-01-16 00:51:19.3584 Info Loaded 72 Native indexers.
+2026-01-16 00:51:19.3649 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-16 00:51:22.0930 Info Loaded 530 Cardigann indexers.
+2026-01-16 00:51:22.0976 Info Loaded 602 indexers in total
+2026-01-16 00:51:22.7767 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-16 00:51:22.7860 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-16 00:51:22.7927 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-16 00:51:22.8043 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-16 00:51:22.9643 Info Jackett startup finished in 4.406 s
+2026-01-16 00:55:06.9723 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 2.6852941s.
+2026-01-16 00:55:09.6726 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 2.1991625s.
+2026-01-16 00:55:12.4418 Info Torznab search in AggregateSearch for Pluribus S01E09 => Found 100 releases [5710ms]
+2026-01-16 00:59:11.1613 Error All categories provided are unsupported in The Pirate Bay: 5070
+2026-01-16 00:59:11.1613 Error All categories provided are unsupported in RuTor: 5070
+2026-01-16 00:59:11.1613 Error All categories provided are unsupported in EZTV: 5070
+2026-01-16 00:59:11.1613 Error Request for unknown indexer: kickasstorrentsws
+2026-01-16 00:59:11.1613 Error Request for unknown indexer: extratorrentst
+2026-01-16 00:59:11.1684 Info Torznab search in The Pirate Bay for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [8ms]
+2026-01-16 00:59:11.1790 Info Torznab search in RuTor for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [18ms]
+2026-01-16 00:59:11.1858 Info Torznab search in EZTV for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [25ms]
+2026-01-16 00:59:11.1944 Error System.Exception: Unknown indexer: kickasstorrentsws
+
+[v0.24.807.0] System.Exception: Unknown indexer: kickasstorrentsws
+   at Jackett.Common.Services.IndexerManagerService.GetWebIndexer(String name) in ./Jackett.Common/Services/IndexerManagerService.cs:line 306
+   at Jackett.Common.Services.IndexerManagerService.GetIndexer(String name) in ./Jackett.Common/Services/IndexerManagerService.cs:line 279
+   at Jackett.Server.Controllers.RequiresConfiguredIndexer.OnActionExecuting(ActionExecutingContext context) in ./Jackett.Server/Controllers/ResultsController.cs:line 85
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in ./Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+
+2026-01-16 00:59:11.2012 Error System.Exception: Unknown indexer: extratorrentst
+
+[v0.24.807.0] System.Exception: Unknown indexer: extratorrentst
+   at Jackett.Common.Services.IndexerManagerService.GetWebIndexer(String name) in ./Jackett.Common/Services/IndexerManagerService.cs:line 306
+   at Jackett.Common.Services.IndexerManagerService.GetIndexer(String name) in ./Jackett.Common/Services/IndexerManagerService.cs:line 279
+   at Jackett.Server.Controllers.RequiresConfiguredIndexer.OnActionExecuting(ActionExecutingContext context) in ./Jackett.Server/Controllers/ResultsController.cs:line 85
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in ./Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+
+2026-01-16 00:59:11.5073 Error Jackett.Common.IndexerException: Exception (1337x): Challenge detected but FlareSolverr is not configured
+
+[v0.24.807.0] Jackett.Common.IndexerException: Exception (1337x): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 174
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 188
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 617
+   at Jackett.Common.Indexers.Definitions.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Definitions/CardigannIndexer.cs:line 1564
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 378
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 403
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 816
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 437
+
+2026-01-16 00:59:11.6960 Info Torznab search in TheRARBG for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [559ms]
+2026-01-16 00:59:11.7323 Info Torznab search in SubsPlease for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [570ms]
+2026-01-16 00:59:11.7582 Info Torznab search in ilCorSaRoNeRo for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [596ms]
+2026-01-16 00:59:12.1480 Info Torznab search in Uindex for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [987ms]
+2026-01-16 00:59:14.7564 Info Torznab search in Nyaa.si for Sousou no Frieren:  no Mahou S01E09 => Found 0 releases [3594ms]
+2026-01-16 00:59:29.8210 Info Torznab search in AggregateSearch for Pluribus S01E09 => Found 100 releases [332ms]
+2026-01-16 01:06:07.1863 Info Adding filter indexer ('status:healthy' indexer) ...
+2026-01-16 01:06:22.9961 Info Torznab search in status:healthy => Found 679 releases [15803ms]
+2026-01-16 01:06:45.5215 Info Torznab search in status:healthy => Found 679 releases [6ms]
+2026-01-16 01:07:36.2330 Info Torznab search in status:healthy => Found 679 releases [5ms]
+2026-01-16 01:07:47.5655 Info Torznab search in status:healthy => Found 679 releases [5ms]
+2026-01-16 01:08:38.7756 Info Torznab search in status:healthy => Found 679 releases [5ms]
+2026-01-16 01:12:20.8404 Info Torznab search in status:healthy => Found 679 releases [5ms]
+2026-01-16 01:25:17.3642 Info Torznab search in AggregateSearch for Pluribus S01E09 => Found 100 releases [1407ms]
+2026-01-16 01:51:22.6615 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-16 01:51:23.5125 Info New release found. Current version: v0.24.807 New version: v0.24.850
+2026-01-16 01:51:23.5186 Info Downloading release v0.24.850 It could take a while...
+2026-01-16 01:51:30.1128 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.850-639041250885356191/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "165" --NoRestart
+2026-01-16 01:51:30.1233 Info Updater started process id: 336
+2026-01-16 01:51:49.1190 Info Starting Jackett v0.24.850
+2026-01-16 01:51:49.6046 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-16 01:51:49.6148 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-16 01:51:49.6266 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-16 01:51:49.6376 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-16 01:51:49.6432 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-16 01:51:49.6534 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-16 01:51:49.6617 Info App config/log directory: /config/Jackett
+2026-01-16 01:51:49.6716 Info Using proxy: Disabled
+2026-01-16 01:51:49.6797 Info Using FlareSolverr: No
+2026-01-16 01:51:49.6898 Info Using HTTP Client: HttpWebClient2
+2026-01-16 01:51:49.6985 Info Loading Native indexers ...
+2026-01-16 01:51:49.7400 Info Loaded 72 Native indexers.
+2026-01-16 01:51:49.7474 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-16 01:51:52.5113 Info Loaded 531 Cardigann indexers.
+2026-01-16 01:51:52.5162 Info Loaded 603 indexers in total
+2026-01-16 01:51:53.2719 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-16 01:51:53.2808 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-16 01:51:53.2888 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-16 01:51:53.2980 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-16 01:51:53.3276 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.850-639041250885356191
+2026-01-16 01:51:53.5981 Info Jackett startup finished in 4.678 s
+2026-01-16 02:51:46.1288 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-16 02:51:47.3446 Info Jackett is already updated. Current version: v0.24.850
+2026-01-17 21:18:30.6942 Info Starting Jackett v0.24.850
+2026-01-17 21:18:31.2645 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-17 21:18:31.2729 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-17 21:18:31.2850 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-17 21:18:31.2916 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-17 21:18:31.2998 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-17 21:18:31.3089 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-17 21:18:31.3174 Info App config/log directory: /config/Jackett
+2026-01-17 21:18:31.3265 Info Using proxy: Disabled
+2026-01-17 21:18:31.3336 Info Using FlareSolverr: No
+2026-01-17 21:18:31.3459 Info Using HTTP Client: HttpWebClient2
+2026-01-17 21:18:31.3529 Info Loading Native indexers ...
+2026-01-17 21:18:31.3850 Info Loaded 72 Native indexers.
+2026-01-17 21:18:31.3925 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-17 21:18:34.1057 Info Loaded 531 Cardigann indexers.
+2026-01-17 21:18:34.1099 Info Loaded 603 indexers in total
+2026-01-17 21:18:34.8023 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-17 21:18:34.8100 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-17 21:18:34.8167 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-17 21:18:34.8239 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-17 21:18:35.0216 Info Jackett startup finished in 4.771 s
+2026-01-17 21:20:00.6821 Info Jackett stopped
+2026-01-17 21:20:06.3351 Info Starting Jackett v0.24.850
+2026-01-17 21:20:06.7688 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-17 21:20:06.7771 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-17 21:20:06.7870 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-17 21:20:06.7925 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-17 21:20:06.7994 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-17 21:20:06.8065 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-17 21:20:06.8132 Info App config/log directory: /config/Jackett
+2026-01-17 21:20:06.8208 Info Using proxy: Disabled
+2026-01-17 21:20:06.8264 Info Using FlareSolverr: No
+2026-01-17 21:20:06.8341 Info Using HTTP Client: HttpWebClient2
+2026-01-17 21:20:06.8409 Info Loading Native indexers ...
+2026-01-17 21:20:06.8712 Info Loaded 72 Native indexers.
+2026-01-17 21:20:06.8767 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-17 21:20:09.5984 Info Loaded 531 Cardigann indexers.
+2026-01-17 21:20:09.6030 Info Loaded 603 indexers in total
+2026-01-17 21:20:10.2502 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-17 21:20:10.2573 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-17 21:20:10.2638 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-17 21:20:10.2708 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-17 21:20:10.4266 Info Jackett startup finished in 4.323 s
+2026-01-17 21:22:07.5668 Info Torznab search in AggregateSearch for One Battle After Another => Found 26 releases [1332ms]
+2026-01-19 22:57:43.4615 Info Starting Jackett v0.24.850
+2026-01-19 22:57:44.0631 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-19 22:57:44.0705 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-19 22:57:44.0805 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-19 22:57:44.0857 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-19 22:57:44.0926 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-19 22:57:44.0998 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-19 22:57:44.1064 Info App config/log directory: /config/Jackett
+2026-01-19 22:57:44.1138 Info Using proxy: Disabled
+2026-01-19 22:57:44.1202 Info Using FlareSolverr: No
+2026-01-19 22:57:44.1287 Info Using HTTP Client: HttpWebClient2
+2026-01-19 22:57:44.1361 Info Loading Native indexers ...
+2026-01-19 22:57:44.1682 Info Loaded 72 Native indexers.
+2026-01-19 22:57:44.1759 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-19 22:57:46.8146 Info Loaded 531 Cardigann indexers.
+2026-01-19 22:57:46.8191 Info Loaded 603 indexers in total
+2026-01-19 22:57:47.4905 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-19 22:57:47.4991 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-19 22:57:47.5060 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-19 22:57:47.5132 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-19 22:57:47.7042 Info Jackett startup finished in 4.710 s
+2026-01-19 22:58:16.3772 Info Torznab search in AggregateSearch for Hana to hebi yori niku no shiiku => Found 0 releases [1167ms]
+2026-01-19 22:58:28.2237 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E06 => Found 0 releases [1099ms]
+2026-01-19 22:58:31.1235 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E06 => Found 16 releases [3999ms]
+2026-01-19 22:58:38.2376 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E07 => Found 0 releases [309ms]
+2026-01-19 22:58:41.4970 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E07 => Found 19 releases [3571ms]
+2026-01-19 23:57:47.3475 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-19 23:57:47.7866 Info New release found. Current version: v0.24.850 New version: v0.24.887
+2026-01-19 23:57:47.7911 Info Downloading release v0.24.887 It could take a while...
+2026-01-19 23:57:54.0386 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.887-639044638727497450/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "165" --NoRestart
+2026-01-19 23:57:54.0450 Info Updater started process id: 236
+2026-01-19 23:58:10.2622 Info Starting Jackett v0.24.887
+2026-01-19 23:58:10.6492 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-19 23:58:10.6573 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-19 23:58:10.6686 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-19 23:58:10.6751 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-19 23:58:10.6821 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-19 23:58:10.6893 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-19 23:58:10.6958 Info App config/log directory: /config/Jackett
+2026-01-19 23:58:10.7030 Info Using proxy: Disabled
+2026-01-19 23:58:10.7090 Info Using FlareSolverr: No
+2026-01-19 23:58:10.7168 Info Using HTTP Client: HttpWebClient2
+2026-01-19 23:58:10.7233 Info Loading Native indexers ...
+2026-01-19 23:58:10.7541 Info Loaded 72 Native indexers.
+2026-01-19 23:58:10.7605 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-19 23:58:13.3190 Info Loaded 532 Cardigann indexers.
+2026-01-19 23:58:13.3232 Info Loaded 604 indexers in total
+2026-01-19 23:58:13.9857 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-19 23:58:13.9940 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-19 23:58:13.9994 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-19 23:58:14.0060 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-19 23:58:14.0288 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.887-639044638727497450
+2026-01-19 23:58:14.2431 Info Jackett startup finished in 4.172 s
+2026-01-20 00:06:48.0575 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E07 => Found 0 releases [808ms]
+2026-01-20 00:06:53.8430 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E07 => Found 19 releases [6593ms]
+2026-01-20 00:07:00.5294 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E08 => Found 0 releases [465ms]
+2026-01-20 00:07:03.6560 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E08 => Found 18 releases [3592ms]
+2026-01-20 00:27:43.0896 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E08 => Found 0 releases (from cache) [0ms]
+2026-01-20 00:27:43.0896 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E08 => Found 18 releases (from cache) [0ms]
+2026-01-20 00:27:45.4758 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E09 => Found 0 releases [641ms]
+2026-01-20 00:27:48.4092 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E09 => Found 17 releases [3574ms]
+2026-01-20 00:47:28.4987 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 2.2853436s.
+2026-01-20 00:47:28.4987 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 1.6548362s.
+2026-01-20 00:47:30.1740 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 3.2062873s.
+2026-01-20 00:47:30.7952 Warn Request to SubsPlease failed with exception 'Name does not resolve (subsplease.org:443)'. Retrying in 2.1911869s.
+2026-01-20 00:47:31.9214 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E06 => Found 16 releases [3520ms]
+2026-01-20 00:47:32.7693 Info Torznab search in Nyaa.si for Tsue to Tsurugi no Wistoria S01E07 => Found 19 releases [4542ms]
+2026-01-20 00:47:32.9962 Error Jackett.Common.IndexerException: Exception (subsplease): Name does not resolve
+
+[v0.24.887.0] Jackett.Common.IndexerException: Exception (subsplease): Name does not resolve
+ ---> System.Net.Http.HttpRequestException: Name does not resolve (subsplease.org:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 174
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 188
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(WebRequest request) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 634
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass14_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in ./Jackett.Common/Indexers/BaseIndexer.cs:line 626
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(WebRequest request) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 625
+   at Jackett.Common.Indexers.BaseWebIndexer.FetchIndexerResponseAsync(IndexerRequest request) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 938
+   at Jackett.Common.Indexers.BaseWebIndexer.FetchPageAsync(IndexerRequest request, IParseIndexerResponse parser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 911
+   at Jackett.Common.Indexers.BaseWebIndexer.FetchReleasesAsync(Func`2 pageableRequestChainSelector, TorznabQuery query) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 880
+   at Jackett.Common.Indexers.Definitions.SubsPlease.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Definitions/SubsPlease.cs:line 91
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 378
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 403
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 816
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 437
+
+2026-01-20 00:47:33.8896 Info Torznab search in SubsPlease for Tsue to Tsurugi no Wistoria S01E06 => Found 0 releases [5488ms]
+2026-01-20 00:58:13.9201 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-20 00:58:14.7187 Info Jackett is already updated. Current version: v0.24.887
+2026-01-21 23:34:56.2191 Info Starting Jackett v0.24.887
+2026-01-21 23:34:56.7844 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-21 23:34:56.7923 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-21 23:34:56.8057 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-21 23:34:56.8122 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-21 23:34:56.8206 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-21 23:34:56.8282 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-21 23:34:56.8358 Info App config/log directory: /config/Jackett
+2026-01-21 23:34:56.8436 Info Using proxy: Disabled
+2026-01-21 23:34:56.8508 Info Using FlareSolverr: No
+2026-01-21 23:34:56.8595 Info Using HTTP Client: HttpWebClient2
+2026-01-21 23:34:56.8658 Info Loading Native indexers ...
+2026-01-21 23:34:56.8972 Info Loaded 72 Native indexers.
+2026-01-21 23:34:56.9038 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-21 23:34:59.5878 Info Loaded 532 Cardigann indexers.
+2026-01-21 23:34:59.5922 Info Loaded 604 indexers in total
+2026-01-21 23:35:00.2607 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-21 23:35:00.2685 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-21 23:35:00.2750 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-21 23:35:00.2837 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-21 23:35:00.4773 Info Jackett startup finished in 4.718 s
+2026-01-21 23:36:09.1281 Info Torznab search in SubsPlease for Dungeon Meshi S01E05 => Found 0 releases [860ms]
+2026-01-21 23:36:12.4426 Info Torznab search in Nyaa.si for Dungeon Meshi S01E05 => Found 5 releases [4174ms]
+2026-01-21 23:36:18.1687 Info Torznab search in SubsPlease for Dungeon Meshi S01E06 => Found 0 releases [340ms]
+2026-01-21 23:36:20.8981 Info Torznab search in Nyaa.si for Dungeon Meshi S01E06 => Found 7 releases [3070ms]
+2026-01-22 00:23:42.1368 Info Torznab search in SubsPlease for Dungeon Meshi S01E06 => Found 0 releases [2319ms]
+2026-01-22 00:23:46.4451 Info Torznab search in Nyaa.si for Dungeon Meshi S01E06 => Found 7 releases [6627ms]
+2026-01-22 00:23:49.2883 Info Torznab search in SubsPlease for Dungeon Meshi S01E07 => Found 0 releases [329ms]
+2026-01-22 00:23:52.4434 Info Torznab search in Nyaa.si for Dungeon Meshi S01E07 => Found 5 releases [3486ms]
+2026-01-22 00:35:00.1133 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-22 00:35:01.1081 Info New release found. Current version: v0.24.887 New version: v0.24.898
+2026-01-22 00:35:01.1131 Info Downloading release v0.24.898 It could take a while...
+2026-01-22 00:35:08.0470 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.898-639046389066052882/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "166" --NoRestart
+2026-01-22 00:35:08.0546 Info Updater started process id: 254
+2026-01-22 00:35:26.0355 Info Starting Jackett v0.24.898
+2026-01-22 00:35:26.4669 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-22 00:35:26.4759 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-22 00:35:26.4882 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-22 00:35:26.4951 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-22 00:35:26.5041 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-22 00:35:26.5134 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-22 00:35:26.5206 Info App config/log directory: /config/Jackett
+2026-01-22 00:35:26.5291 Info Using proxy: Disabled
+2026-01-22 00:35:26.5364 Info Using FlareSolverr: No
+2026-01-22 00:35:26.5471 Info Using HTTP Client: HttpWebClient2
+2026-01-22 00:35:26.5545 Info Loading Native indexers ...
+2026-01-22 00:35:26.5881 Info Loaded 72 Native indexers.
+2026-01-22 00:35:26.5938 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-22 00:35:29.1971 Info Loaded 533 Cardigann indexers.
+2026-01-22 00:35:29.2017 Info Loaded 605 indexers in total
+2026-01-22 00:35:29.8608 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-22 00:35:29.8684 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-22 00:35:29.8757 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-22 00:35:29.8827 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-22 00:35:29.9084 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.898-639046389066052882
+2026-01-22 00:35:30.1272 Info Jackett startup finished in 4.299 s
+2026-01-22 00:55:41.5802 Info Torznab search in SubsPlease for Dungeon Meshi S01E07 => Found 0 releases [931ms]
+2026-01-22 00:55:44.7130 Info Torznab search in Nyaa.si for Dungeon Meshi S01E07 => Found 5 releases [4064ms]
+2026-01-22 00:55:46.9659 Info Torznab search in SubsPlease for Dungeon Meshi S01E08 => Found 0 releases [302ms]
+2026-01-22 00:55:50.3161 Info Torznab search in Nyaa.si for Dungeon Meshi S01E08 => Found 4 releases [3652ms]
+2026-01-22 23:41:21.1815 Info Starting Jackett v0.24.898
+2026-01-22 23:41:21.7876 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-22 23:41:21.7967 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-22 23:41:21.8105 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-22 23:41:21.8176 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-22 23:41:21.8264 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-22 23:41:21.8347 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-22 23:41:21.8423 Info App config/log directory: /config/Jackett
+2026-01-22 23:41:21.8512 Info Using proxy: Disabled
+2026-01-22 23:41:21.8595 Info Using FlareSolverr: No
+2026-01-22 23:41:21.8688 Info Using HTTP Client: HttpWebClient2
+2026-01-22 23:41:21.8767 Info Loading Native indexers ...
+2026-01-22 23:41:21.9100 Info Loaded 72 Native indexers.
+2026-01-22 23:41:21.9179 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-22 23:41:24.7443 Info Loaded 533 Cardigann indexers.
+2026-01-22 23:41:24.7490 Info Loaded 605 indexers in total
+2026-01-22 23:41:25.4594 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-22 23:41:25.4677 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-22 23:41:25.4755 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-22 23:41:25.4825 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-22 23:41:25.6863 Info Jackett startup finished in 5.019 s
+2026-01-22 23:50:22.0261 Info Starting Jackett v0.24.898
+2026-01-22 23:50:22.6137 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-22 23:50:22.6221 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-22 23:50:22.6355 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-22 23:50:22.6416 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-22 23:50:22.6492 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-22 23:50:22.6569 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-22 23:50:22.6635 Info App config/log directory: /config/Jackett
+2026-01-22 23:50:22.6712 Info Using proxy: Disabled
+2026-01-22 23:50:22.6774 Info Using FlareSolverr: No
+2026-01-22 23:50:22.6859 Info Using HTTP Client: HttpWebClient2
+2026-01-22 23:50:22.6928 Info Loading Native indexers ...
+2026-01-22 23:50:22.7248 Info Loaded 72 Native indexers.
+2026-01-22 23:50:22.7321 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-22 23:50:25.5106 Info Loaded 533 Cardigann indexers.
+2026-01-22 23:50:25.5150 Info Loaded 605 indexers in total
+2026-01-22 23:50:26.2413 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-22 23:50:26.2509 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-22 23:50:26.2571 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-22 23:50:26.2659 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-22 23:50:26.5273 Info Jackett startup finished in 4.975 s
+2026-01-22 23:50:41.2723 Info Torznab search in SubsPlease for Dungeon Meshi S01E13 => Found 0 releases [990ms]
+2026-01-22 23:50:44.1124 Info Torznab search in Nyaa.si for Dungeon Meshi S01E13 => Found 1 releases [3830ms]
+2026-01-22 23:51:17.5180 Info Torznab search in AggregateSearch for Pluribus S01E09 => Found 100 releases [3046ms]
+2026-01-22 23:51:21.1767 Info Torznab search in SubsPlease for Dungeon Meshi S01E13 => Found 0 releases (from cache) [0ms]
+2026-01-22 23:51:21.1767 Info Torznab search in Nyaa.si for Dungeon Meshi S01E13 => Found 1 releases (from cache) [0ms]
+2026-01-23 00:40:17.5373 Info Torznab search in SubsPlease for Dungeon Meshi S01E13 => Found 0 releases [736ms]
+2026-01-23 00:40:20.7574 Info Torznab search in Nyaa.si for Dungeon Meshi S01E13 => Found 1 releases [3959ms]
+2026-01-23 00:50:26.1335 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-23 00:50:27.0737 Info New release found. Current version: v0.24.898 New version: v0.24.900
+2026-01-23 00:50:27.0785 Info Downloading release v0.24.900 It could take a while...
+2026-01-23 00:50:33.4172 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.900-639047262319034860/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "166" --NoRestart
+2026-01-23 00:50:33.4250 Info Updater started process id: 264
+2026-01-23 00:50:51.5006 Info Starting Jackett v0.24.900
+2026-01-23 00:50:51.9209 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-23 00:50:51.9294 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-23 00:50:51.9396 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-23 00:50:51.9447 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-23 00:50:51.9514 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-23 00:50:51.9579 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-23 00:50:51.9641 Info App config/log directory: /config/Jackett
+2026-01-23 00:50:51.9714 Info Using proxy: Disabled
+2026-01-23 00:50:51.9777 Info Using FlareSolverr: No
+2026-01-23 00:50:51.9856 Info Using HTTP Client: HttpWebClient2
+2026-01-23 00:50:51.9923 Info Loading Native indexers ...
+2026-01-23 00:50:52.0230 Info Loaded 72 Native indexers.
+2026-01-23 00:50:52.0290 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-23 00:50:54.6428 Info Loaded 532 Cardigann indexers.
+2026-01-23 00:50:54.6472 Info Loaded 604 indexers in total
+2026-01-23 00:50:55.3290 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-23 00:50:55.3372 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-23 00:50:55.3430 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-23 00:50:55.3501 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-23 00:50:55.3743 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.900-639047262319034860
+2026-01-23 00:50:55.6003 Info Jackett startup finished in 4.308 s
+2026-01-23 01:50:55.2941 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-23 01:50:56.8154 Info Jackett is already updated. Current version: v0.24.900
+2026-01-24 03:14:23.1372 Info Starting Jackett v0.24.900
+2026-01-24 03:14:23.8038 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-24 03:14:23.8123 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-24 03:14:23.8239 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-24 03:14:23.8301 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-24 03:14:23.8383 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-24 03:14:23.8467 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-24 03:14:23.8541 Info App config/log directory: /config/Jackett
+2026-01-24 03:14:23.8639 Info Using proxy: Disabled
+2026-01-24 03:14:23.8709 Info Using FlareSolverr: No
+2026-01-24 03:14:23.8804 Info Using HTTP Client: HttpWebClient2
+2026-01-24 03:14:23.8879 Info Loading Native indexers ...
+2026-01-24 03:14:23.9213 Info Loaded 72 Native indexers.
+2026-01-24 03:14:23.9290 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-24 03:14:26.6610 Info Loaded 532 Cardigann indexers.
+2026-01-24 03:14:26.6656 Info Loaded 604 indexers in total
+2026-01-24 03:14:27.3400 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-24 03:14:27.3486 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-24 03:14:27.3564 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-24 03:14:27.3653 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-24 03:14:27.5774 Info Jackett startup finished in 4.934 s
+2026-01-24 03:14:45.3713 Info Torznab search in AggregateSearch for Sousou no Frieren 2nd Season Episode 29 => Found 0 releases [3461ms]
+2026-01-24 03:14:45.9078 Info Torznab search in AggregateSearch for Sousou no Frieren 2nd Season S02E01 => Found 8 releases [3998ms]
+2026-01-24 03:14:46.4144 Info Torznab search in AggregateSearch for Sousou no Frieren 2nd Season 29 => Found 10 releases [4505ms]
+2026-01-24 03:14:46.8916 Info Torznab search in AggregateSearch for Sousou no Frieren 2nd Season - 029 => Found 23 releases [4982ms]
+2026-01-24 03:15:26.9846 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [3139ms]
+2026-01-24 03:15:27.1789 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [3334ms]
+2026-01-24 03:15:27.6793 Info Torznab search in AggregateSearch for Shingeki no Kyojin - 022 => Found 33 releases [3834ms]
+2026-01-24 03:15:28.1806 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [4335ms]
+2026-01-24 03:16:25.7191 Info Torznab search in AggregateSearch for Shingeki no Kyojin 23 => Found 33 releases [3330ms]
+2026-01-24 03:16:25.9383 Info Torznab search in AggregateSearch for Shingeki no Kyojin - 023 => Found 33 releases [3549ms]
+2026-01-24 03:16:26.4450 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 23 => Found 1 releases [4056ms]
+2026-01-24 03:16:26.9391 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E23 => Found 0 releases [4550ms]
+2026-01-24 03:18:53.2677 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [285ms]
+2026-01-24 03:18:53.2962 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [314ms]
+2026-01-24 03:18:53.3198 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [337ms]
+2026-01-24 03:20:07.8318 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [325ms]
+2026-01-24 03:20:07.8639 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [358ms]
+2026-01-24 03:20:07.8797 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [373ms]
+2026-01-24 03:20:35.2388 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [288ms]
+2026-01-24 03:20:35.2660 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [315ms]
+2026-01-24 03:20:35.2682 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [317ms]
+2026-01-24 03:21:20.8646 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E21 => Found 0 releases [3029ms]
+2026-01-24 03:21:21.9210 Info Torznab search in AggregateSearch for Shingeki no Kyojin 21 => Found 33 releases [4085ms]
+2026-01-24 03:21:22.2447 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 21 => Found 2 releases [4405ms]
+2026-01-24 03:22:22.5767 Info Torznab search in AggregateSearch for Shingeki no Kyojin 21 => Found 33 releases [284ms]
+2026-01-24 03:22:22.5872 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E21 => Found 0 releases [295ms]
+2026-01-24 03:22:22.6236 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 21 => Found 2 releases [331ms]
+2026-01-24 03:23:03.1889 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [301ms]
+2026-01-24 03:23:03.2100 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [321ms]
+2026-01-24 03:23:03.2202 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [332ms]
+2026-01-24 03:24:19.5976 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [370ms]
+2026-01-24 03:25:00.4922 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [311ms]
+2026-01-24 03:25:03.2482 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [3067ms]
+2026-01-24 03:26:23.1792 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E17 => Found 0 releases [1422ms]
+2026-01-24 03:26:24.8058 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 17 => Found 0 releases [3045ms]
+2026-01-24 03:26:25.4066 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E17 => Found 0 releases [3650ms]
+2026-01-24 03:26:25.9080 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 17 => Found 0 releases [4152ms]
+2026-01-24 03:26:26.4079 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 E17 => Found 0 releases [4648ms]
+2026-01-24 03:27:07.8591 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [302ms]
+2026-01-24 03:27:07.8638 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [306ms]
+2026-01-24 03:27:10.2954 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [2737ms]
+2026-01-24 03:27:10.8086 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [3251ms]
+2026-01-24 03:27:11.3137 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [3752ms]
+2026-01-24 03:30:25.5784 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [323ms]
+2026-01-24 03:30:25.5784 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [324ms]
+2026-01-24 03:30:25.5962 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [341ms]
+2026-01-24 03:30:25.6033 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [348ms]
+2026-01-24 03:30:25.6293 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [374ms]
+2026-01-24 03:30:28.2831 Info Torznab search in AggregateSearch for 進撃の巨人 Season 1 Episode 22 => Found 1 releases [2995ms]
+2026-01-24 03:30:28.8778 Info Torznab search in AggregateSearch for Attack on Titan S01E22 => Found 0 releases [3623ms]
+2026-01-24 03:30:29.4382 Info Torznab search in AggregateSearch for 進撃の巨人 S1E22 => Found 9 releases [4156ms]
+2026-01-24 03:30:29.9227 Info Torznab search in AggregateSearch for Attack on Titan Season 1 Episode 22 => Found 0 releases [4641ms]
+2026-01-24 03:30:30.4500 Info Torznab search in AggregateSearch for 進撃の巨人 S1 - 22 => Found 31 releases [5162ms]
+2026-01-24 03:30:30.8746 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [5619ms]
+2026-01-24 03:30:31.3786 Info Torznab search in AggregateSearch for Attack on Titan Season 01 Episode 22 => Found 0 releases [6123ms]
+2026-01-24 03:30:31.9204 Info Torznab search in AggregateSearch for 進撃の巨人 Season 01 Episode 22 => Found 2 releases [6639ms]
+2026-01-24 03:30:32.3801 Info Torznab search in AggregateSearch for 進撃の巨人 S01E22 => Found 33 releases [7098ms]
+2026-01-24 03:30:32.8801 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [7598ms]
+2026-01-24 03:32:31.4702 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [309ms]
+2026-01-24 03:32:31.4756 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [313ms]
+2026-01-24 03:32:31.4756 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [314ms]
+2026-01-24 03:32:31.4815 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [320ms]
+2026-01-24 03:32:31.4826 Info Torznab search in AggregateSearch for Attack on Titan Season 1 Episode 22 => Found 0 releases [315ms]
+2026-01-24 03:32:31.4826 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [319ms]
+2026-01-24 03:32:31.4901 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [325ms]
+2026-01-24 03:32:31.4956 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [334ms]
+2026-01-24 03:32:31.5018 Info Torznab search in AggregateSearch for Attack on Titan Season 01 Episode 22 => Found 0 releases [337ms]
+2026-01-24 03:32:31.5266 Info Torznab search in AggregateSearch for Attack on Titan S01E22 => Found 0 releases [363ms]
+2026-01-24 03:34:08.3943 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [318ms]
+2026-01-24 03:34:08.4303 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [354ms]
+2026-01-24 03:37:22.9772 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [303ms]
+2026-01-24 03:37:23.0049 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [330ms]
+2026-01-24 03:37:23.0085 Info Torznab search in AggregateSearch for Attack on Titan Season 01 Episode 22 => Found 0 releases [331ms]
+2026-01-24 03:37:23.0085 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [332ms]
+2026-01-24 03:37:23.0085 Info Torznab search in AggregateSearch for Shingeki no Kyojin - 022 => Found 33 releases [336ms]
+2026-01-24 03:37:23.0159 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [340ms]
+2026-01-24 03:37:23.0227 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [346ms]
+2026-01-24 03:37:23.0249 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [349ms]
+2026-01-24 03:37:23.0249 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [351ms]
+2026-01-24 03:37:23.0249 Info Torznab search in AggregateSearch for Attack on Titan S01E22 => Found 0 releases [351ms]
+2026-01-24 03:37:23.0303 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [356ms]
+2026-01-24 03:37:23.0379 Info Torznab search in AggregateSearch for 進撃の巨人 S1 - 22 => Found 31 releases [327ms]
+2026-01-24 03:37:23.0437 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [369ms]
+2026-01-24 03:37:23.0686 Info Torznab search in AggregateSearch for Attack on Titan Season 1 Episode 22 => Found 0 releases [391ms]
+2026-01-24 03:37:23.2182 Info Torznab search in AggregateSearch for 進撃の巨人 Season 01 Episode 22 => Found 2 releases [508ms]
+2026-01-24 03:37:23.2678 Info Torznab search in AggregateSearch for 進撃の巨人 S1E22 => Found 9 releases [558ms]
+2026-01-24 03:37:23.2687 Info Torznab search in AggregateSearch for 進撃の巨人 Season 1 Episode 22 => Found 1 releases [558ms]
+2026-01-24 03:37:23.2839 Info Torznab search in AggregateSearch for 進撃の巨人 S01E22 => Found 33 releases [574ms]
+2026-01-24 03:37:26.3812 Info Torznab search in AggregateSearch for 進撃の巨人 - 022 => Found 10 releases [3668ms]
+2026-01-24 03:37:26.8760 Info Torznab search in AggregateSearch for Attack on Titan 022 => Found 0 releases [4193ms]
+2026-01-24 03:37:27.3888 Info Torznab search in AggregateSearch for 進撃の巨人 22 => Found 33 releases [4678ms]
+2026-01-24 03:37:27.8272 Info Torznab search in AggregateSearch for Attack on Titan 22 => Found 21 releases [5148ms]
+2026-01-24 03:37:28.3222 Info Torznab search in AggregateSearch for Attack on Titan Episode 22 => Found 0 releases [5641ms]
+2026-01-24 03:37:28.8035 Info Torznab search in AggregateSearch for Shingeki no Kyojin 022 => Found 0 releases [6126ms]
+2026-01-24 03:37:29.3114 Info Torznab search in AggregateSearch for Attack on Titan - 022 => Found 26 releases [6629ms]
+2026-01-24 03:37:29.8113 Info Torznab search in AggregateSearch for 進撃の巨人 Episode 22 => Found 8 releases [7098ms]
+2026-01-24 03:37:30.3113 Info Torznab search in AggregateSearch for 進撃の巨人 022 => Found 24 releases [7598ms]
+2026-01-24 03:39:06.4968 Info Torznab search in AggregateSearch for Attack on Titan S01E22 => Found 0 releases [294ms]
+2026-01-24 03:39:06.5059 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [306ms]
+2026-01-24 03:39:06.5143 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [314ms]
+2026-01-24 03:39:06.5143 Info Torznab search in AggregateSearch for Shingeki no Kyojin - 022 => Found 33 releases [316ms]
+2026-01-24 03:39:06.5180 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [318ms]
+2026-01-24 03:39:06.5180 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [319ms]
+2026-01-24 03:39:06.5180 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 1 releases [317ms]
+2026-01-24 03:39:06.5221 Info Torznab search in AggregateSearch for Attack on Titan Episode 22 => Found 0 releases [313ms]
+2026-01-24 03:39:06.5221 Info Torznab search in AggregateSearch for Shingeki no Kyojin 022 => Found 0 releases [322ms]
+2026-01-24 03:39:06.5221 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [323ms]
+2026-01-24 03:39:06.5359 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [330ms]
+2026-01-24 03:39:06.5359 Info Torznab search in AggregateSearch for Attack on Titan Season 01 Episode 22 => Found 0 releases [333ms]
+2026-01-24 03:39:06.5436 Info Torznab search in AggregateSearch for Attack on Titan 022 => Found 0 releases [332ms]
+2026-01-24 03:39:06.5436 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [342ms]
+2026-01-24 03:39:06.5474 Info Torznab search in AggregateSearch for Attack on Titan Season 1 Episode 22 => Found 0 releases [340ms]
+2026-01-24 03:39:06.5474 Info Torznab search in AggregateSearch for Attack on Titan - 022 => Found 26 releases [337ms]
+2026-01-24 03:39:06.5557 Info Torznab search in AggregateSearch for Attack on Titan 22 => Found 21 releases [347ms]
+2026-01-24 03:39:06.5581 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [353ms]

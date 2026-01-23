@@ -14,7 +14,7 @@ const PORT = process.env.PORT;
 
 const qualities = ["2160p", "1440p", "1080p", "720p", "480p", "360p"];
 
-const indexers = [
+export const indexers = [
 	"therarbg",
 	"1337x",
 	"thepiratebay",
@@ -162,4 +162,10 @@ export const getNumberWithOrdinal = (n: number) => {
 	var s = ["th", "st", "nd", "rd"],
 		v = n % 100;
 	return n + (s[(v - 20) % 10] || s[v] || s[0]);
+};
+
+export const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
+
+export const pad = (n: string | number, length = 2) => {
+	return String(n).padStart(length, "0");
 };
