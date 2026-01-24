@@ -1468,3 +1468,30 @@
 2026-01-25 00:49:54.2374 Info Torznab search in Nyaa.si for Dungeon Meshi S01E21 => Found 3 releases [6128ms]
 2026-01-25 00:49:54.8423 Info Torznab search in Nyaa.si for Dungeon Meshi S1E21 => Found 0 releases [6733ms]
 2026-01-25 00:49:55.2494 Info Torznab search in Nyaa.si for Delicious in Dungeon 21 => Found 14 releases [7139ms]
+2026-01-25 01:17:15.6089 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2026-01-25 01:17:16.4514 Info New release found. Current version: v0.24.900 New version: v0.24.912
+2026-01-25 01:17:16.4563 Info Downloading release v0.24.912 It could take a while...
+2026-01-25 01:17:23.2040 Info Starting updater: /run/jackett-temp/JackettUpdate-v0.24.912-639049006415096293/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "166" --NoRestart
+2026-01-25 01:17:23.2143 Info Updater started process id: 437
+2026-01-25 01:17:40.0849 Info Starting Jackett v0.24.912
+2026-01-25 01:17:40.4717 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-25 01:17:40.4799 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-25 01:17:40.4895 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-25 01:17:40.4992 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-25 01:17:40.5040 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-25 01:17:40.5107 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-25 01:17:40.5173 Info App config/log directory: /config/Jackett
+2026-01-25 01:17:40.5255 Info Using proxy: Disabled
+2026-01-25 01:17:40.5311 Info Using FlareSolverr: No
+2026-01-25 01:17:40.5389 Info Using HTTP Client: HttpWebClient2
+2026-01-25 01:17:40.5454 Info Loading Native indexers ...
+2026-01-25 01:17:40.5764 Info Loaded 72 Native indexers.
+2026-01-25 01:17:40.5821 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-25 01:17:43.2019 Info Loaded 534 Cardigann indexers.
+2026-01-25 01:17:43.2065 Info Loaded 606 indexers in total
+2026-01-25 01:17:43.9313 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-25 01:17:43.9391 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-25 01:17:43.9466 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-25 01:17:43.9537 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-25 01:17:43.9774 Info Deleting JackettUpdate temp files from /run/jackett-temp/JackettUpdate-v0.24.912-639049006415096293
+2026-01-25 01:17:44.1983 Info Jackett startup finished in 4.305 s

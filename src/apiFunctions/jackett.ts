@@ -10,7 +10,7 @@ import type {
 	OMDBSeriesDataType,
 	TorrentDataType,
 } from "../types.js";
-import redis from "@/helpers/redis.js";
+import redis from "../helpers/redis.js";
 
 const JACKETT_URL = process.env.JACKETT_URL;
 const JACKETT_API_KEY = process.env.JACKETT_API_KEY;
