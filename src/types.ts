@@ -177,4 +177,20 @@ export interface AnilistAnimeDataType {
 		native: string | null;
 	};
 	episodes: number;
+	type: string;
+	format: string;
+	relations: {
+		edges: Array<{
+			relationType: string;
+			node: {
+				id: number;
+				title: {
+					romaji: string | null;
+					english: string | null;
+					native: string | null;
+				};
+				episodes: number;
+			};
+		}>;
+	};
 }

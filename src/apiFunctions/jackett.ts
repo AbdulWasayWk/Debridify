@@ -1,6 +1,6 @@
 import axios from "axios";
 import { XMLParser } from "fast-xml-parser";
-import { buildTorrentArray, isAnime } from "../helpers/helpers.js";
+import { buildTorrentArray, delay, indexers, isAnime, pad } from "../helpers/helpers.js";
 import logger from "../helpers/logger.js";
 import type {
 	AnilistAnimeDataType,
@@ -10,72 +10,235 @@ import type {
 	OMDBSeriesDataType,
 	TorrentDataType,
 } from "../types.js";
+import redis from "@/helpers/redis.js";
 
 const JACKETT_URL = process.env.JACKETT_URL;
 const JACKETT_API_KEY = process.env.JACKETT_API_KEY;
 
+const ANILIST_API_URL = "https://graphql.anilist.co";
+
 const xmlParser = new XMLParser();
 
-// Gets movie torrents from the Jackett (Locally deployed)
-export const searchMovieTorrents = async (movieDetails: OMDBMovieDataType): Promise<Array<TorrentDataType> | null> => {
+const setAllSeasonsCache = async (animeId: number, allSeasons: AnilistAnimeDataType[], ttlSeconds?: number) => {
+	const key = `allSeasons:${animeId}`;
+	const value = JSON.stringify(allSeasons);
+
+	if (ttlSeconds) {
+		await redis.set(key, value, "EX", ttlSeconds);
+	} else {
+		await redis.set(key, value);
+	}
+};
+
+const getAllSeasonsCache = async (animeId: number): Promise<AnilistAnimeDataType[] | null> => {
+	const key = `allSeasons:${animeId}`;
+	const value = await redis.get(key);
+
+	if (!value) return null;
+
 	try {
-		logger.info({ msg: "🎬 Movie Details", movieDetails });
-
-		const data = await axios.get(
-			`${JACKETT_URL}/indexers/all/results/torznab?apikey=${JACKETT_API_KEY}&t=movie&q=${encodeURIComponent(movieDetails.Title)}&imdbid=${movieDetails.imdbID}&year=${movieDetails.Year}&limit=50`,
-		);
-
-		const jackettResponse: JackettResponseType = xmlParser.parse(data.data);
-
-		if (
-			jackettResponse.rss &&
-			jackettResponse.rss.channel &&
-			jackettResponse.rss.channel.item &&
-			jackettResponse.rss.channel.item.length
-		) {
-			return buildTorrentArray(jackettResponse.rss.channel.item);
-		}
-
-		return null;
-	} catch (error) {
-		logger.error({ msg: "❌ Searching torrent clients failed", error });
+		return JSON.parse(value) as AnilistAnimeDataType[];
+	} catch (err) {
+		logger.error({ msg: "Failed to parse cached seasons:", err });
 		return null;
 	}
 };
 
-const pad = (n: string | number) => String(n).padStart(2, "0");
+const getAbsoluteEpisodeNumber = (
+	seasons: AnilistAnimeDataType[],
+	seasonNumber: number,
+	episodeNumber: number,
+): number | null => {
+	const seasonIndex = seasonNumber - 1;
 
-const generateSeriesSearchQuery = (
-	seriesDetails: OMDBSeriesDataType,
-	season: string | number,
-	episode: string | number,
-) => {
-	return `${seriesDetails.Title} S${pad(season)}E${pad(episode)}`;
+	// Safety check
+	if (!seasons[seasonIndex]) {
+		return null;
+	}
+
+	// Sum episodes from all previous seasons
+	const episodesBefore = seasons.slice(0, seasonIndex).reduce((sum, s) => sum + (s.episodes ?? 0), 0);
+
+	return episodesBefore + episodeNumber;
 };
 
-const generateAnimeSearchQuery = (animeDetails: AnilistAnimeDataType, season: string, episode: string) => {
-	const title = animeDetails.title.romaji || animeDetails.title.english || animeDetails.title.native;
+const generateAnimeSearchQueries = (
+	animeDetails: AnilistAnimeDataType,
+	allSeasons: AnilistAnimeDataType[],
+	season: string,
+	episode: string,
+): string[] => {
+	const seasonNum = Number(season);
+	const episodeNum = Number(episode);
 
-	return `${title} S${pad(season)}E${pad(episode)}`;
+	const absoluteEpisode = getAbsoluteEpisodeNumber(allSeasons, seasonNum, episodeNum);
+
+	// Title priority: romaji first, english fallback
+	const titles = [animeDetails.title.romaji, animeDetails.title.english].filter(Boolean) as string[];
+
+	const queries: string[] = [];
+
+	titles.forEach((title, titleIndex) => {
+		const isPrimary = titleIndex === 0;
+
+		// =========================
+		// 1️⃣ Absolute episode (HIGHEST SIGNAL)
+		// =========================
+		if (absoluteEpisode !== null) {
+			const ep3 = pad(absoluteEpisode, 3);
+
+			queries.push(
+				`${title} - ${absoluteEpisode}`,
+				`${title} ${absoluteEpisode}`,
+				// `${title} - ${ep3}`,
+				// `${title} ${ep3}`,
+			);
+
+			// Very common scene style
+			queries.push(`${title} Episode ${absoluteEpisode}`);
+		}
+
+		// =========================
+		// 2️⃣ Minimal season-based (LOWER PRIORITY)
+		// Only keep the ones that actually exist in anime torrents
+		// =========================
+		if (isPrimary) {
+			queries.push(`${title} S${pad(season)}E${pad(episode)}`, `${title} S${season}E${episode}`);
+		}
+
+		// =========================
+		// 3️⃣ Fallback plain episode
+		// =========================
+		queries.push(`${title} ${episode}`);
+	});
+
+	// Deduplicate & return
+	return Array.from(new Set(queries));
 };
 
 const generateAnimeSearchQueryForAniList = (seriesDetails: OMDBSeriesDataType, season: string) => {
 	return Number(season) > 1 ? `${seriesDetails.Title} Season ${season}` : `${seriesDetails.Title}`;
 };
 
-export const filterBySeasonEpisode = (
-	items: Array<JackettTorrentDataType>,
-	season: string,
-	episode: string,
-): Array<JackettTorrentDataType> => {
-	const target = `s${pad(season)}e${pad(episode)}`.toLowerCase();
+const fetchAnimeById = async (id: number) => {
+	// GraphQL query: fetch only what we actually need
+	const query = `
+    query ($id: Int!) {
+      Media(id: $id, type: ANIME) {
+        id
+        title {
+          romaji
+          english
+          native
+        }
+        episodes
+		type
+        format
+        relations {
+          edges {
+            relationType
+            node {
+              id
+              title {
+                romaji
+                english
+                native
+              }
+              episodes
+            }
+          }
+        }
+      }
+    }
+  `;
 
-	return items.filter((item) => {
-		// Normalize the title: lowercase, remove spaces and dashes
-		const normalizedTitle = item.title.toLowerCase().replace(/[\s\-]/g, "");
+	// Make a POST request to AniList GraphQL API
+	const response = await axios.post(
+		ANILIST_API_URL,
+		{
+			query,
+			variables: { id },
+		},
+		{
+			headers: {
+				"Content-Type": "application/json",
+				Accept: "application/json",
+				// User-Agent is recommended by AniList to avoid aggressive throttling
+				"User-Agent": "Debridify/1.0",
+			},
+		},
+	);
 
-		return normalizedTitle.includes(target);
+	// Basic safety check (helps with debugging unexpected API issues)
+	if (!response.data?.data?.Media) {
+		throw new Error(`AniList returned no data for anime ID ${id}`);
+	}
+
+	// Return strongly typed anime object
+	return response.data.data.Media as AnilistAnimeDataType;
+};
+
+const getFirstSeason = async (startId: number): Promise<AnilistAnimeDataType> => {
+	let current = await fetchAnimeById(startId);
+
+	while (true) {
+		// Look for a PREQUEL relation
+		const prequelEdge = current.relations.edges.find((edge) => edge.relationType === "PREQUEL");
+
+		// If no prequel exists, this is the first season
+		if (!prequelEdge) {
+			return current;
+		}
+
+		// Small delay to avoid rate limiting
+		await delay(600);
+
+		// Move to the prequel anime
+		current = await fetchAnimeById(prequelEdge.node.id);
+	}
+};
+
+const getAllSeasons = async (startAnimeId: number): Promise<AnilistAnimeDataType[]> => {
+	const seasons: AnilistAnimeDataType[] = [];
+
+	// Step 1: find the very first season
+	let current = await getFirstSeason(startAnimeId);
+
+	while (true) {
+		// Add the current season to the list
+		seasons.push(current);
+
+		// Look for a SEQUEL relation
+		const sequelEdge = current.relations.edges.find((edge) => edge.relationType === "SEQUEL");
+
+		// If no sequel exists, we reached the final season
+		if (!sequelEdge) {
+			break;
+		}
+
+		// Small delay to avoid AniList 429s
+		await delay(600);
+
+		// Move to the next season
+		current = await fetchAnimeById(sequelEdge.node.id);
+	}
+
+	return seasons;
+};
+
+const cacheAllSeasons = async (allSeasons: AnilistAnimeDataType[]) => {
+	allSeasons.forEach(async (season) => {
+		await setAllSeasonsCache(season.id, allSeasons, 7 * 24 * 60 * 60); // cache 7 days
 	});
+};
+
+const getAllSeasonsCached = async (startAnimeId: number) => {
+	const cached = await getAllSeasonsCache(startAnimeId);
+	if (cached) return cached;
+
+	const seasons = await getAllSeasons(startAnimeId);
+	await cacheAllSeasons(seasons);
+	return seasons;
 };
 
 const getAnimeInfo = async (seriesDetails: OMDBSeriesDataType, season: string) => {
@@ -89,14 +252,30 @@ const getAnimeInfo = async (seriesDetails: OMDBSeriesDataType, season: string) =
         			english
         			native
       			}
-				episodes
-    		}
-  		}
-	}
+            episodes
+			type
+            format
+            relations {
+              edges {
+                relationType
+                node {
+                  id
+                  title {
+        			      romaji
+        			      english
+        			      native
+      			      }
+                  episodes
+                }
+              }
+            }
+    	    }
+        }
+    }
 	`;
 
 	const res = await axios.post(
-		"https://graphql.anilist.co",
+		ANILIST_API_URL,
 		JSON.stringify({
 			query,
 			variables: { search: generateAnimeSearchQueryForAniList(seriesDetails, season) },
@@ -114,17 +293,37 @@ const getAnimeInfo = async (seriesDetails: OMDBSeriesDataType, season: string) =
 };
 
 const handleAnimeTorrentFetching = async (animeDetails: AnilistAnimeDataType, season: string, episode: string) => {
-	const query = generateAnimeSearchQuery(animeDetails, season, episode);
+	const allSeasons = await getAllSeasonsCached(animeDetails.id);
 
-	const indexers = ["nyaasi", "subsplease", "animetosho"];
+	const queries = generateAnimeSearchQueries(animeDetails, allSeasons, season, episode);
 
-	const requests = indexers.map((id) =>
-		axios.get<JackettResponseType>(
-			`${JACKETT_URL}/indexers/${id}/results/torznab?apikey=${JACKETT_API_KEY}&t=tvsearch&cat=5070&q=${encodeURIComponent(
-				query,
-			)}&limit=33`,
-		),
-	);
+	const animeIndexers = ["nyaasi", "subsplease"];
+
+	const requests: Promise<any>[] = [];
+
+	animeIndexers.forEach((indexer) => {
+		queries.forEach((query) => {
+			requests.push(
+				axios.get<JackettResponseType>(`${JACKETT_URL}/indexers/${indexer}/results/torznab`, {
+					params: {
+						apikey: JACKETT_API_KEY,
+						t: "search",
+						cat: "5070,5071,5072",
+						q: query,
+						limit: 50,
+					},
+				}),
+			);
+		});
+	});
+
+	// const requests = queries.map((query) =>
+	// 	axios.get<JackettResponseType>(
+	// 		`${JACKETT_URL}/indexers/all/results/torznab?apikey=${JACKETT_API_KEY}&t=search&cat=5070,5071,5072&q=${encodeURIComponent(
+	// 			query,
+	// 		)}&limit=33`,
+	// 	),
+	// );
 
 	const results = await Promise.allSettled(requests);
 
@@ -157,11 +356,41 @@ const handleAnimeTorrentFetching = async (animeDetails: AnilistAnimeDataType, se
 
 const handleAnimeSearch = async (seriesDetails: OMDBSeriesDataType, season: string, episode: string) => {
 	const fetchedData = await getAnimeInfo(seriesDetails, season);
-	if (fetchedData && fetchedData[0]) {
-		return await handleAnimeTorrentFetching(fetchedData[0], season, episode);
+
+	await delay(600);
+
+	const anime = fetchedData.find(
+		(item) => item.type === "ANIME" && (item.format === "TV" || item.format === "TV_SHORT"),
+	);
+
+	if (anime) {
+		return await handleAnimeTorrentFetching(anime, season, episode);
 	}
 
 	return null;
+};
+
+const generateSeriesSearchQuery = (
+	seriesDetails: OMDBSeriesDataType,
+	season: string | number,
+	episode: string | number,
+) => {
+	return `${seriesDetails.Title} S${pad(season)}E${pad(episode)}`;
+};
+
+const filterBySeasonEpisode = (
+	items: Array<JackettTorrentDataType>,
+	season: string,
+	episode: string,
+): Array<JackettTorrentDataType> => {
+	const target = `s${pad(season)}e${pad(episode)}`.toLowerCase();
+
+	return items.filter((item) => {
+		// Normalize the title: lowercase, remove spaces and dashes
+		const normalizedTitle = item.title.toLowerCase().replace(/[\s\-]/g, "");
+
+		return normalizedTitle.includes(target);
+	});
 };
 
 const handleSeriesSearch = async (seriesDetails: OMDBSeriesDataType, season: string, episode: string) => {
@@ -201,6 +430,33 @@ export const searchSeriesTorrents = async (
 		} else {
 			return await handleSeriesSearch(seriesDetails, season, episode);
 		}
+	} catch (error) {
+		logger.error({ msg: "❌ Searching torrent clients failed", error });
+		return null;
+	}
+};
+
+// Gets movie torrents from the Jackett (Locally deployed)
+export const searchMovieTorrents = async (movieDetails: OMDBMovieDataType): Promise<Array<TorrentDataType> | null> => {
+	try {
+		logger.info({ msg: "🎬 Movie Details", movieDetails });
+
+		const data = await axios.get(
+			`${JACKETT_URL}/indexers/all/results/torznab?apikey=${JACKETT_API_KEY}&t=movie&q=${encodeURIComponent(movieDetails.Title)}&imdbid=${movieDetails.imdbID}&year=${movieDetails.Year}&limit=50`,
+		);
+
+		const jackettResponse: JackettResponseType = xmlParser.parse(data.data);
+
+		if (
+			jackettResponse.rss &&
+			jackettResponse.rss.channel &&
+			jackettResponse.rss.channel.item &&
+			jackettResponse.rss.channel.item.length
+		) {
+			return buildTorrentArray(jackettResponse.rss.channel.item);
+		}
+
+		return null;
 	} catch (error) {
 		logger.error({ msg: "❌ Searching torrent clients failed", error });
 		return null;
