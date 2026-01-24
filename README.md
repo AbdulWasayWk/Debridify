@@ -10,6 +10,8 @@ The Production ENVs should be like so:
 > OMDB_API_KEY="YOUR_KEY_HERE"
 > JACKETT_URL="http://jackett:9117/api/v2.0"
 > JACKETT_API_KEY="YOUR_KEY_HERE"
+> REDIS_HOST="redis"
+> REDIS_PORT="6379"
 
 If you want to run the app in development environment, The DEV ENVs should be like so:
 (The development ENV file name will be .env)
@@ -21,6 +23,8 @@ If you want to run the app in development environment, The DEV ENVs should be li
 > OMDB_API_KEY="YOUR_KEY_HERE"
 > JACKETT_URL="http://localhost:9117/api/v2.0"
 > JACKETT_API_KEY="YOUR_KEY_HERE"
+> REDIS_HOST="redis"
+> REDIS_PORT="6379"
 
 Use the `npm start` commant to run in development environment
 

@@ -1203,3 +1203,268 @@
 2026-01-24 03:39:06.5474 Info Torznab search in AggregateSearch for Attack on Titan - 022 => Found 26 releases [337ms]
 2026-01-24 03:39:06.5557 Info Torznab search in AggregateSearch for Attack on Titan 22 => Found 21 releases [347ms]
 2026-01-24 03:39:06.5581 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [353ms]
+2026-01-25 00:17:11.0896 Info Starting Jackett v0.24.900
+2026-01-25 00:17:11.7168 Info Environment version: 9.0.12 (/app/Jackett/)
+2026-01-25 00:17:11.7250 Info OS version: Unix 6.6.87.2 (64bit OS) (64bit process)
+2026-01-25 00:17:11.7355 Info Jackett variant: CoreLinuxMuslAmdx64
+2026-01-25 00:17:11.7409 Info File /etc/issue: Welcome to Alpine Linux 3.22
+2026-01-25 00:17:11.7471 Info Running in Docker: Yes (image build: v0.24.545-ls260)
+2026-01-25 00:17:11.7546 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2026-01-25 00:17:11.7602 Info App config/log directory: /config/Jackett
+2026-01-25 00:17:11.7673 Info Using proxy: Disabled
+2026-01-25 00:17:11.7729 Info Using FlareSolverr: No
+2026-01-25 00:17:11.7806 Info Using HTTP Client: HttpWebClient2
+2026-01-25 00:17:11.7872 Info Loading Native indexers ...
+2026-01-25 00:17:11.8196 Info Loaded 72 Native indexers.
+2026-01-25 00:17:11.8269 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2026-01-25 00:17:14.9693 Info Loaded 532 Cardigann indexers.
+2026-01-25 00:17:14.9735 Info Loaded 604 indexers in total
+2026-01-25 00:17:15.6887 Info Adding aggregate indexer ('all' indexer) ...
+2026-01-25 00:17:15.6990 Info Adding filter indexer ('type:public' indexer) ...
+2026-01-25 00:17:15.7127 Info Adding filter indexer ('type:private' indexer) ...
+2026-01-25 00:17:15.7278 Info Adding filter indexer ('type:semi-public' indexer) ...
+2026-01-25 00:17:15.9619 Info Jackett startup finished in 5.343 s
+2026-01-25 00:18:01.1166 Info Torznab search in AggregateSearch for Attack on Titan S1E22 => Found 0 releases [4023ms]
+2026-01-25 00:18:01.1551 Info Torznab search in AggregateSearch for Attack on Titan 022 => Found 0 releases [4058ms]
+2026-01-25 00:18:01.3087 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1 - 22 => Found 1 releases [4404ms]
+2026-01-25 00:18:01.5465 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 01 Episode 22 => Found 0 releases [4642ms]
+2026-01-25 00:18:01.5695 Info Torznab search in AggregateSearch for Attack on Titan Episode 22 => Found 0 releases [4472ms]
+2026-01-25 00:18:01.5952 Info Torznab search in AggregateSearch for Attack on Titan 22 => Found 3 releases [4502ms]
+2026-01-25 00:18:01.6816 Info Torznab search in AggregateSearch for Attack on Titan S01E22 => Found 0 releases [4777ms]
+2026-01-25 00:18:01.8143 Info Torznab search in AggregateSearch for Shingeki no Kyojin 022 => Found 0 releases [4910ms]
+2026-01-25 00:18:02.3082 Info Torznab search in AggregateSearch for Shingeki no Kyojin Episode 22 => Found 0 releases [5404ms]
+2026-01-25 00:18:02.5072 Info Torznab search in AggregateSearch for Shingeki no Kyojin S1E22 => Found 0 releases [5602ms]
+2026-01-25 00:18:02.8653 Info Torznab search in AggregateSearch for Shingeki no Kyojin Season 1 Episode 22 => Found 0 releases [5961ms]
+2026-01-25 00:18:03.3541 Info Torznab search in AggregateSearch for Attack on Titan Season 1 Episode 22 => Found 0 releases [6261ms]
+2026-01-25 00:18:03.8177 Info Torznab search in AggregateSearch for Attack on Titan S1 - 22 => Found 1 releases [6725ms]
+2026-01-25 00:18:04.2994 Info Torznab search in AggregateSearch for Shingeki no Kyojin - 022 => Found 32 releases [7395ms]
+2026-01-25 00:18:04.7451 Info Torznab search in AggregateSearch for Attack on Titan Season 01 Episode 22 => Found 0 releases [7841ms]
+2026-01-25 00:18:05.2104 Info Torznab search in AggregateSearch for Attack on Titan - 022 => Found 26 releases [8113ms]
+2026-01-25 00:18:06.8361 Info Torznab search in AggregateSearch for Shingeki no Kyojin S01E22 => Found 0 releases [9931ms]
+2026-01-25 00:18:07.6887 Info Torznab search in AggregateSearch for Shingeki no Kyojin 22 => Found 33 releases [10786ms]
+2026-01-25 00:28:41.9822 Info Torznab search in AggregateSearch for Dungeon Meshi S01E20 => Found 11 releases [3705ms]
+2026-01-25 00:28:42.0542 Info Torznab search in AggregateSearch for Delicious in Dungeon Season 1 Episode 20 => Found 0 releases [3768ms]
+2026-01-25 00:28:42.0793 Info Torznab search in AggregateSearch for Dungeon Meshi Season 01 Episode 20 => Found 0 releases [3803ms]
+2026-01-25 00:28:42.1026 Info Torznab search in AggregateSearch for Delicious in Dungeon Season 01 Episode 20 => Found 0 releases [3826ms]
+2026-01-25 00:28:42.1239 Info Torznab search in AggregateSearch for Dungeon Meshi - 020 => Found 33 releases [3847ms]
+2026-01-25 00:28:42.1614 Info Torznab search in AggregateSearch for Dungeon Meshi Episode 20 => Found 0 releases [3885ms]
+2026-01-25 00:28:42.1871 Info Torznab search in AggregateSearch for Delicious in Dungeon S01E20 => Found 3 releases [3910ms]
+2026-01-25 00:28:42.2269 Info Torznab search in AggregateSearch for Delicious in Dungeon 20 => Found 16 releases [3940ms]
+2026-01-25 00:28:42.2343 Info Torznab search in AggregateSearch for Dungeon Meshi S1 - 20 => Found 2 releases [3958ms]
+2026-01-25 00:28:42.7805 Info Torznab search in AggregateSearch for Dungeon Meshi S1E20 => Found 0 releases [4504ms]
+2026-01-25 00:28:43.2406 Info Torznab search in AggregateSearch for Delicious in Dungeon S1E20 => Found 0 releases [4954ms]
+2026-01-25 00:28:43.2848 Info Torznab search in AggregateSearch for Delicious in Dungeon Episode 20 => Found 0 releases [4996ms]
+2026-01-25 00:28:43.7239 Info Torznab search in AggregateSearch for Delicious in Dungeon S1 - 20 => Found 2 releases [5438ms]
+2026-01-25 00:28:44.2834 Info Torznab search in AggregateSearch for Dungeon Meshi 20 => Found 22 releases [6007ms]
+2026-01-25 00:28:44.7719 Info Torznab search in AggregateSearch for Delicious in Dungeon 020 => Found 0 releases [6483ms]
+2026-01-25 00:28:45.2664 Info Torznab search in AggregateSearch for Dungeon Meshi Season 1 Episode 20 => Found 0 releases [6990ms]
+2026-01-25 00:28:46.2616 Info Torznab search in AggregateSearch for Delicious in Dungeon - 020 => Found 33 releases [7973ms]
+2026-01-25 00:28:47.0728 Info Torznab search in AggregateSearch for Dungeon Meshi 020 => Found 0 releases [8796ms]
+2026-01-25 00:32:27.1587 Info Torznab search in AggregateSearch for Dungeon Meshi - 020 => Found 33 releases [290ms]
+2026-01-25 00:32:27.1613 Info Torznab search in AggregateSearch for Dungeon Meshi S1E20 => Found 0 releases [293ms]
+2026-01-25 00:32:27.1629 Info Torznab search in AggregateSearch for Dungeon Meshi S01E20 => Found 11 releases [294ms]
+2026-01-25 00:32:27.1629 Info Torznab search in AggregateSearch for Dungeon Meshi 20 => Found 22 releases [297ms]
+2026-01-25 00:32:27.1691 Info Torznab search in AggregateSearch for Dungeon Meshi 020 => Found 0 releases [301ms]
+2026-01-25 00:32:27.1784 Info Torznab search in AggregateSearch for Dungeon Meshi Episode 20 => Found 0 releases [310ms]
+2026-01-25 00:32:27.1838 Info Torznab search in AggregateSearch for Delicious in Dungeon 20 => Found 16 releases [311ms]
+2026-01-25 00:32:27.1955 Info Torznab search in AggregateSearch for Delicious in Dungeon 020 => Found 0 releases [322ms]
+2026-01-25 00:32:27.2072 Info Torznab search in AggregateSearch for Delicious in Dungeon Episode 20 => Found 0 releases [334ms]
+2026-01-25 00:32:27.2428 Info Torznab search in AggregateSearch for Delicious in Dungeon - 020 => Found 33 releases [370ms]
+2026-01-25 00:32:30.6601 Info Torznab search in AggregateSearch for Dungeon Meshi - 20 => Found 33 releases [3792ms]
+2026-01-25 00:32:31.2545 Info Torznab search in AggregateSearch for Delicious in Dungeon - 20 => Found 33 releases [4385ms]
+2026-01-25 00:34:06.0036 Info Torznab search in AggregateSearch for Dungeon Meshi 20 => Found 22 releases [381ms]
+2026-01-25 00:34:06.0036 Info Torznab search in AggregateSearch for Dungeon Meshi S01E20 => Found 11 releases [382ms]
+2026-01-25 00:34:06.0069 Info Torznab search in AggregateSearch for Dungeon Meshi S1E20 => Found 0 releases [382ms]
+2026-01-25 00:34:06.0069 Info Torznab search in AggregateSearch for Dungeon Meshi 020 => Found 0 releases [385ms]
+2026-01-25 00:34:06.0121 Info Torznab search in AggregateSearch for Dungeon Meshi - 020 => Found 33 releases [390ms]
+2026-01-25 00:34:06.0148 Info Torznab search in AggregateSearch for Delicious in Dungeon Episode 20 => Found 0 releases [384ms]
+2026-01-25 00:34:06.0148 Info Torznab search in AggregateSearch for Delicious in Dungeon 20 => Found 16 releases [388ms]
+2026-01-25 00:34:06.0148 Info Torznab search in AggregateSearch for Delicious in Dungeon - 020 => Found 33 releases [388ms]
+2026-01-25 00:34:06.0180 Info Torznab search in AggregateSearch for Dungeon Meshi - 20 => Found 33 releases [396ms]
+2026-01-25 00:34:06.0325 Info Torznab search in AggregateSearch for Delicious in Dungeon - 20 => Found 33 releases [405ms]
+2026-01-25 00:34:06.0358 Info Torznab search in AggregateSearch for Dungeon Meshi Episode 20 => Found 0 releases [413ms]
+2026-01-25 00:34:06.0418 Info Torznab search in AggregateSearch for Delicious in Dungeon 020 => Found 0 releases [412ms]
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1077 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1179 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1256 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:43:33.1339 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1506 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1535 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1584 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.1649 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:43:33.6853 Info Torznab search in SubsPlease for Dungeon Meshi - 20 => Found 0 releases [577ms]
+2026-01-25 00:43:33.7256 Info Torznab search in SubsPlease for Dungeon Meshi - 020 => Found 0 releases [575ms]
+2026-01-25 00:43:33.7480 Info Torznab search in SubsPlease for Dungeon Meshi S01E20 => Found 0 releases [583ms]
+2026-01-25 00:43:33.7500 Info Torznab search in SubsPlease for Dungeon Meshi Episode 20 => Found 0 releases [591ms]
+2026-01-25 00:43:33.7500 Info Torznab search in SubsPlease for Delicious in Dungeon 020 => Found 0 releases [584ms]
+2026-01-25 00:43:33.7579 Info Torznab search in SubsPlease for Dungeon Meshi S1E20 => Found 0 releases [592ms]
+2026-01-25 00:43:33.7579 Info Torznab search in SubsPlease for Dungeon Meshi 020 => Found 0 releases [605ms]
+2026-01-25 00:43:33.7923 Info Torznab search in SubsPlease for Delicious in Dungeon - 020 => Found 0 releases [626ms]
+2026-01-25 00:43:33.7925 Info Torznab search in SubsPlease for Delicious in Dungeon - 20 => Found 0 releases [626ms]
+2026-01-25 00:43:33.7980 Info Torznab search in SubsPlease for Delicious in Dungeon 20 => Found 0 releases [631ms]
+2026-01-25 00:43:34.1359 Info Torznab search in SubsPlease for Dungeon Meshi 20 => Found 0 releases [1001ms]
+2026-01-25 00:43:35.0760 Info Torznab search in SubsPlease for Delicious in Dungeon Episode 20 => Found 0 releases [1909ms]
+2026-01-25 00:43:37.0337 Info Torznab search in Nyaa.si for Dungeon Meshi Episode 20 => Found 0 releases [3927ms]
+2026-01-25 00:43:37.6653 Info Torznab search in Nyaa.si for Dungeon Meshi 20 => Found 0 releases [4561ms]
+2026-01-25 00:43:37.7326 Info Torznab search in Nyaa.si for Delicious in Dungeon Episode 20 => Found 0 releases [4626ms]
+2026-01-25 00:43:38.2541 Info Torznab search in Nyaa.si for Delicious in Dungeon 20 => Found 8 releases [5148ms]
+2026-01-25 00:43:38.6685 Info Torznab search in Nyaa.si for Dungeon Meshi - 020 => Found 0 releases [5564ms]
+2026-01-25 00:43:39.1076 Info Torznab search in Nyaa.si for Delicious in Dungeon 020 => Found 0 releases [5983ms]
+2026-01-25 00:43:39.7207 Info Torznab search in Nyaa.si for Dungeon Meshi S1E20 => Found 0 releases [6615ms]
+2026-01-25 00:43:40.1796 Info Torznab search in Nyaa.si for Dungeon Meshi 020 => Found 0 releases [7075ms]
+2026-01-25 00:43:40.7989 Info Torznab search in Nyaa.si for Dungeon Meshi - 20 => Found 9 releases [7695ms]
+2026-01-25 00:43:41.2470 Info Torznab search in Nyaa.si for Dungeon Meshi S01E20 => Found 2 releases [8142ms]
+2026-01-25 00:43:41.4520 Info Torznab search in Nyaa.si for Delicious in Dungeon - 20 => Found 8 releases [8346ms]
+2026-01-25 00:43:41.6575 Info Torznab search in Nyaa.si for Delicious in Dungeon - 020 => Found 0 releases [8541ms]
+2026-01-25 00:46:24.1027 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1027 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1027 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1027 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1027 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1033 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1141 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:46:24.1141 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1175 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1175 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1265 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1350 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1436 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1520 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1602 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1681 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1761 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1836 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.1919 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:46:24.6897 Info Torznab search in SubsPlease for Dungeon Meshi - 21 => Found 0 releases [575ms]
+2026-01-25 00:46:24.7430 Info Torznab search in SubsPlease for Dungeon Meshi 021 => Found 0 releases [616ms]
+2026-01-25 00:46:24.7565 Info Torznab search in SubsPlease for Delicious in Dungeon 21 => Found 0 releases [588ms]
+2026-01-25 00:46:24.7622 Info Torznab search in SubsPlease for Delicious in Dungeon - 21 => Found 0 releases [601ms]
+2026-01-25 00:46:24.7691 Info Torznab search in SubsPlease for Dungeon Meshi 21 => Found 0 releases [651ms]
+2026-01-25 00:46:24.7733 Info Torznab search in SubsPlease for Dungeon Meshi - 021 => Found 0 releases [655ms]
+2026-01-25 00:46:24.7775 Info Torznab search in SubsPlease for Dungeon Meshi Episode 21 => Found 0 releases [642ms]
+2026-01-25 00:46:24.7775 Info Torznab search in SubsPlease for Delicious in Dungeon - 021 => Found 0 releases [602ms]
+2026-01-25 00:46:24.7958 Info Torznab search in SubsPlease for Dungeon Meshi S01E21 => Found 0 releases [652ms]
+2026-01-25 00:46:24.8186 Info Torznab search in SubsPlease for Delicious in Dungeon Episode 21 => Found 0 releases [626ms]
+2026-01-25 00:46:25.2134 Info Torznab search in SubsPlease for Dungeon Meshi S1E21 => Found 0 releases [1061ms]
+2026-01-25 00:46:25.4956 Info Torznab search in SubsPlease for Delicious in Dungeon 021 => Found 0 releases [1311ms]
+2026-01-25 00:46:28.0017 Info Torznab search in Nyaa.si for Dungeon Meshi 021 => Found 0 releases [3899ms]
+2026-01-25 00:46:28.0267 Info Torznab search in Nyaa.si for Delicious in Dungeon 21 => Found 0 releases [3922ms]
+2026-01-25 00:46:28.0523 Info Torznab search in Nyaa.si for Dungeon Meshi Episode 21 => Found 1 releases [3949ms]
+2026-01-25 00:46:28.6645 Info Torznab search in Nyaa.si for Delicious in Dungeon Episode 21 => Found 1 releases [4550ms]
+2026-01-25 00:46:29.0923 Info Torznab search in Nyaa.si for Dungeon Meshi S1E21 => Found 0 releases [4988ms]
+2026-01-25 00:46:29.5519 Info Torznab search in Nyaa.si for Delicious in Dungeon - 021 => Found 0 releases [5447ms]
+2026-01-25 00:46:30.1464 Info Torznab search in Nyaa.si for Dungeon Meshi S01E21 => Found 3 releases [6043ms]
+2026-01-25 00:46:30.5317 Info Torznab search in Nyaa.si for Delicious in Dungeon 021 => Found 0 releases [6427ms]
+2026-01-25 00:46:31.0491 Info Torznab search in Nyaa.si for Dungeon Meshi 21 => Found 10 releases [6946ms]
+2026-01-25 00:46:31.7459 Info Torznab search in Nyaa.si for Dungeon Meshi - 21 => Found 10 releases [7643ms]
+2026-01-25 00:46:32.2213 Info Torznab search in Nyaa.si for Dungeon Meshi - 021 => Found 0 releases [8118ms]
+2026-01-25 00:46:32.5888 Info Torznab search in Nyaa.si for Delicious in Dungeon - 21 => Found 10 releases [8485ms]
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.3173 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.3212 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.3212 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.3212 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.3212 Info Torznab search in Nyaa.si for Dungeon Meshi S01E20 => Found 2 releases (from cache) [6ms]
+2026-01-25 00:48:11.3364 Info Torznab search in Nyaa.si for Dungeon Meshi 20 => Found 0 releases (from cache) [19ms]
+2026-01-25 00:48:11.3429 Info Torznab search in Nyaa.si for Dungeon Meshi S1E20 => Found 0 releases (from cache) [25ms]
+2026-01-25 00:48:11.3499 Info Torznab search in Nyaa.si for Delicious in Dungeon - 20 => Found 8 releases (from cache) [32ms]
+2026-01-25 00:48:11.3569 Info Torznab search in Nyaa.si for Delicious in Dungeon Episode 20 => Found 0 releases (from cache) [38ms]
+2026-01-25 00:48:11.3632 Info Torznab search in Nyaa.si for Delicious in Dungeon 20 => Found 8 releases (from cache) [44ms]
+2026-01-25 00:48:11.3698 Info Torznab search in SubsPlease for Dungeon Meshi S01E20 => Found 0 releases (from cache) [50ms]
+2026-01-25 00:48:11.3770 Info Torznab search in SubsPlease for Dungeon Meshi S1E20 => Found 0 releases (from cache) [56ms]
+2026-01-25 00:48:11.3831 Info Torznab search in SubsPlease for Dungeon Meshi 20 => Found 0 releases (from cache) [61ms]
+2026-01-25 00:48:11.3893 Info Torznab search in SubsPlease for Delicious in Dungeon - 20 => Found 0 releases (from cache) [67ms]
+2026-01-25 00:48:11.3961 Info Torznab search in SubsPlease for Delicious in Dungeon 20 => Found 0 releases (from cache) [73ms]
+2026-01-25 00:48:11.4033 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:48:11.4750 Info Torznab search in SubsPlease for Delicious in Dungeon Episode 20 => Found 0 releases (from cache) [71ms]
+2026-01-25 00:49:22.7919 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7919 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7919 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7919 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7919 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.7929 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.8029 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.8029 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.8029 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.8029 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:22.8029 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:23.3883 Info Torznab search in SubsPlease for Dungeon Meshi S01E20 => Found 0 releases [585ms]
+2026-01-25 00:49:23.3973 Info Torznab search in SubsPlease for Dungeon Meshi S1E20 => Found 0 releases [594ms]
+2026-01-25 00:49:23.4045 Info Torznab search in SubsPlease for Dungeon Meshi 20 => Found 0 releases [609ms]
+2026-01-25 00:49:23.4050 Info Torznab search in SubsPlease for Delicious in Dungeon 20 => Found 0 releases [601ms]
+2026-01-25 00:49:23.4050 Info Torznab search in SubsPlease for Dungeon Meshi Episode 20 => Found 0 releases [611ms]
+2026-01-25 00:49:23.4129 Info Torznab search in SubsPlease for Dungeon Meshi - 20 => Found 0 releases [618ms]
+2026-01-25 00:49:23.4129 Info Torznab search in SubsPlease for Delicious in Dungeon - 20 => Found 0 releases [612ms]
+2026-01-25 00:49:23.4538 Info Torznab search in SubsPlease for Delicious in Dungeon Episode 20 => Found 0 releases [650ms]
+2026-01-25 00:49:27.6092 Info Torznab search in Nyaa.si for Delicious in Dungeon 20 => Found 16 releases [4816ms]
+2026-01-25 00:49:28.0508 Info Torznab search in Nyaa.si for Dungeon Meshi - 20 => Found 22 releases [5258ms]
+2026-01-25 00:49:28.5815 Info Torznab search in Nyaa.si for Dungeon Meshi S1E20 => Found 0 releases [5788ms]
+2026-01-25 00:49:28.9723 Info Torznab search in Nyaa.si for Dungeon Meshi Episode 20 => Found 0 releases [6180ms]
+2026-01-25 00:49:29.6070 Info Torznab search in Nyaa.si for Dungeon Meshi S01E20 => Found 2 releases [6814ms]
+2026-01-25 00:49:30.0389 Info Torznab search in Nyaa.si for Delicious in Dungeon Episode 20 => Found 0 releases [7245ms]
+2026-01-25 00:49:30.5075 Info Torznab search in Nyaa.si for Dungeon Meshi 20 => Found 22 releases [7715ms]
+2026-01-25 00:49:31.2461 Info Torznab search in Nyaa.si for Delicious in Dungeon - 20 => Found 16 releases [8453ms]
+2026-01-25 00:49:48.1081 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1081 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1081 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in Nyaa.si: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1085 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1126 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1165 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1266 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1344 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1422 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.1505 Warn Some of the categories provided are unsupported in SubsPlease: 5071,5072
+2026-01-25 00:49:48.4994 Info Torznab search in SubsPlease for Dungeon Meshi - 21 => Found 0 releases [388ms]
+2026-01-25 00:49:48.5136 Info Torznab search in SubsPlease for Dungeon Meshi 21 => Found 0 releases [401ms]
+2026-01-25 00:49:48.5163 Info Torznab search in SubsPlease for Dungeon Meshi Episode 21 => Found 0 releases [403ms]
+2026-01-25 00:49:48.5163 Info Torznab search in SubsPlease for Dungeon Meshi S1E21 => Found 0 releases [391ms]
+2026-01-25 00:49:48.5275 Info Torznab search in SubsPlease for Dungeon Meshi S01E21 => Found 0 releases [410ms]
+2026-01-25 00:49:48.5283 Info Torznab search in SubsPlease for Delicious in Dungeon Episode 21 => Found 0 releases [377ms]
+2026-01-25 00:49:48.5283 Info Torznab search in SubsPlease for Delicious in Dungeon 21 => Found 0 releases [386ms]
+2026-01-25 00:49:48.5340 Info Torznab search in SubsPlease for Delicious in Dungeon - 21 => Found 0 releases [399ms]
+2026-01-25 00:49:51.8894 Info Torznab search in Nyaa.si for Delicious in Dungeon - 21 => Found 14 releases [3779ms]
+2026-01-25 00:49:52.3054 Info Torznab search in Nyaa.si for Delicious in Dungeon Episode 21 => Found 1 releases [4194ms]
+2026-01-25 00:49:52.7410 Info Torznab search in Nyaa.si for Dungeon Meshi Episode 21 => Found 1 releases [4632ms]
+2026-01-25 00:49:53.1219 Info Torznab search in Nyaa.si for Dungeon Meshi - 21 => Found 19 releases [5013ms]
+2026-01-25 00:49:53.7359 Info Torznab search in Nyaa.si for Dungeon Meshi 21 => Found 19 releases [5627ms]
+2026-01-25 00:49:54.2374 Info Torznab search in Nyaa.si for Dungeon Meshi S01E21 => Found 3 releases [6128ms]
+2026-01-25 00:49:54.8423 Info Torznab search in Nyaa.si for Dungeon Meshi S1E21 => Found 0 releases [6733ms]
+2026-01-25 00:49:55.2494 Info Torznab search in Nyaa.si for Delicious in Dungeon 21 => Found 14 releases [7139ms]

@@ -13,6 +13,7 @@ services:
             - NODE_ENV=production
         depends_on:
             - jackett
+            - redis
 
     jackett:
         image: lscr.io/linuxserver/jackett:latest
@@ -28,3 +29,15 @@ services:
             - PGID=1000
             - AUTO_UPDATE=true
             - TZ=Asia/Karachi
+
+    redis:
+        image: redis:7-alpine
+        container_name: redis
+        ports:
+            - "6379:6379"
+        restart: unless-stopped
+        volumes:
+            - redis-data:/data
+
+volumes:
+    redis-data:
