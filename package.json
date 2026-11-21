@@ -1,31 +1,32 @@
 {
 	"name": "debridify",
-	"version": "1.0.0",
-	"description": "Local Stremio addon for direct Real-Debrid streams",
+	"version": "2.0.0",
+	"description": "Local Stremio addon: live torrent search (movies, series, anime) streamed through TorBox",
 	"type": "module",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
+	"engines": {
+		"node": ">=24"
+	},
+	"scripts": {
+		"start": "tsx watch --clear-screen=false src/index.ts",
+		"build": "tsc -p tsconfig.build.json",
+		"start:prod": "node dist/index.js",
+		"typecheck": "tsc --noEmit",
+		"test": "node --import tsx --test test/*.test.ts",
+		"smoke": "tsx scripts/smoke.ts",
+		"format": "prettier --write src test scripts"
+	},
 	"dependencies": {
-		"@stremio-addon/node-express": "^0.1.1",
-		"@stremio-addon/sdk": "^0.2.0",
-		"axios": "^1.13.2",
-		"cheerio": "^1.1.2",
+		"@viren070/parse-torrent-title": "^0.9.2",
 		"dotenv": "^17.2.3",
 		"express": "^5.1.0",
 		"fast-xml-parser": "^5.3.2",
-		"ioredis": "^5.9.2",
 		"pino": "^10.1.0",
-		"pino-roll": "^4.0.0"
-	},
-	"scripts": {
-		"build": "tsc",
-		"start": "chcp 65001 && tsx --watch src/index.ts | npx pino-pretty",
-		"start:prod": "node dist/index.js | npx pino-pretty"
+		"pino-pretty": "^13.1.2"
 	},
 	"devDependencies": {
-		"@tsconfig/recommended": "^1.0.13",
 		"@types/express": "^5.0.5",
 		"@types/node": "^24.10.1",
-		"pino-pretty": "^13.1.2",
 		"prettier": "3.7.1",
 		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"

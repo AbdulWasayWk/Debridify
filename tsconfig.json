@@ -1,13 +1,17 @@
 {
-	"extends": "@tsconfig/recommended/tsconfig.json",
 	"compilerOptions": {
+		"target": "ES2023",
+		"lib": ["ES2023"],
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
 		"outDir": "./dist",
-		"rootDir": "./src",
-		"target": "ESNext",
-		"module": "ESNext",
-		"moduleResolution": "Bundler",
-		"paths": {
-			"@/*": ["./src/*"]
-		}
-	}
+		"types": ["node"]
+	},
+	"include": ["src", "test", "scripts"]
 }
