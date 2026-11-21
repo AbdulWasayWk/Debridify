@@ -1,196 +1,100 @@
-export type QualityKey = "2160p" | "1440p" | "1080p" | "720p" | "480p" | "360p";
+import type { QualityGroup, Resolution } from "./config.js";
+import type { ParsedTitle } from "./lib/parse.js";
 
-export interface OMDBMovieDataType {
-	Title: string;
-	Year: string;
-	Rated: string;
-	Released: string;
-	Runtime: string;
-	Genre: string;
-	Director: string;
-	Writer: string;
-	Actors: string;
-	Plot: string;
-	Language: string;
-	Country: string;
-	Awards: string;
-	Poster: string;
-	Ratings: Array<{ Source: string; Value: string }>;
-	Metascore: string;
-	imdbRating: string;
-	imdbVotes: string;
-	imdbID: string;
-	Type: "movie" | "series";
-	DVD: string;
-	BoxOffice: string;
-	Production: string;
-	Website: string;
-	Response: string;
+export type ContentType = "movie" | "series";
+
+export interface AnimeInfo {
+	kitsuId?: number;
+	/** Episode number inside the specific anime entry (what SubsPlease etc. use, e.g. "S2 - 05"). */
+	relEpisode?: number;
+	/** Absolute episode number across all seasons (e.g. One Piece 1100). */
+	absEpisode?: number;
+	/** Season number release groups would use for this entry (e.g. 2 for "Frieren S2"). */
+	entrySeason?: number;
+	/** True when the requested entry is the first season/part, so un-numbered titles default to it. */
+	isFirstEntry: boolean;
+	/** Normalised aliases of the specific entry (e.g. "sousou no frieren 2nd season"). */
+	entryTitles: string[];
+	/** Normalised aliases of the franchise / first season (e.g. "sousou no frieren"). */
+	baseTitles: string[];
+	/** Display-case titles used for search queries, most useful first. */
+	queryTitles: string[];
+	baseQueryTitle?: string;
+	/** Anime movie / OVA with no episodes. */
+	isMovie: boolean;
 }
 
-export interface OMDBSeriesDataType {
-	Title: string;
-	Year: string;
-	Rated: string;
-	Released: string;
-	Runtime: string;
-	Genre: string;
-	Director: string;
-	Writer: string;
-	Actors: string;
-	Plot: string;
-	Language: string;
-	Country: string;
-	Awards: string;
-	Poster: string;
-	Ratings: Array<{ Source: string; Value: string }>;
-	Metascore: string;
-	imdbRating: string;
-	imdbVotes: string;
-	imdbID: string;
-	Type: "movie" | "series";
-	totalSeasons: number;
-	Response: string;
-}
-
-export type OMDBDataType = OMDBMovieDataType | OMDBSeriesDataType;
-
-export interface AddMagnetDataType {
+/** Everything the search needs to know about a Stremio item. Built once per id and cached. */
+export interface SearchContext {
 	id: string;
-	uri: string;
+	type: ContentType;
+	imdbId?: string;
+	/** Primary display title. */
+	name: string;
+	/** Display-case titles for search queries (first = best). */
+	queryTitles: string[];
+	/** All normalised names used for relevance filtering. */
+	matchTitles: string[];
+	year?: number;
+	season?: number;
+	episode?: number;
+	/** ISO date the movie/episode was released (drives cache freshness). */
+	released?: string;
+	isAnime: boolean;
+	anime?: AnimeInfo;
 }
 
-export interface RealDebridInfoDataType {
-	id: string;
-	filename: string;
-	original_filename: string;
-	hash: string;
-	bytes: number;
-	original_bytes: number;
-	host: string;
-	split: number;
-	progress: number;
-	status:
-		| "magnet_error"
-		| "magnet_conversion"
-		| "waiting_files_selection"
-		| "queued"
-		| "downloading"
-		| "downloaded"
-		| "error"
-		| "virus"
-		| "compressing"
-		| "uploading"
-		| "dead";
-	added: string;
-	files: Array<{
-		id: number;
-		path: string;
-		bytes: number;
-		selected: number;
-	}>;
-	links: Array<string>;
-	ended: string;
-	speed: number;
-	seeders: number;
-}
-
-export interface RealDebridUnrestrictDataType {
-	id: string;
-	filename: string;
-	mimeType: string;
-	filesize: number;
-	link: string;
-	host: string;
-	chunks: number;
-	crc: number;
-	download: string;
-	streamable: number;
-}
-
-export type CacheItem = { url: string; expiresAt: number };
-
-export interface RealDebridDownloadListDataType {
-	id: string;
-	filename: string;
-	mimeType: string;
-	filesize: number;
-	link: string;
-	host: string;
-	chunks: number;
-	download: string;
-	generated: string;
-	type: string;
-}
-
-export interface JackettResponseType {
-	"?xml": string;
-	rss: {
-		channel: {
-			"atom:link": string;
-			title: string;
-			description: string;
-			link: string;
-			language: string;
-			category: string;
-			item: Array<JackettTorrentDataType>;
-		};
-	};
-}
-
-export interface JackettTorrentDataType {
+/** A search hit as returned by a provider, before matching/ranking. */
+export interface RawTorrent {
+	infoHash: string;
 	title: string;
-	guid: string;
-	jackettindexer: string;
-	type: string;
-	comments: string;
-	pubDate: string;
-	size: number;
-	description: string;
-	link: string;
-	category: Array<number>;
-	enclosure: string;
-	"torznab:attr": Array<string>;
+	size?: number;
+	seeders?: number;
+	/** Display name of the site it came from ("Nyaa", "YTS", "1337x"...). */
+	source: string;
+	/** Provider id that produced it. */
+	provider: string;
+	/** Provider guarantees this torrent belongs to the requested IMDb id (skip title checks). */
+	imdbVerified?: boolean;
+	/** Provider-supplied season/episode (EZTV). 0 = pack. */
+	season?: number;
+	episode?: number;
+	trackers?: string[];
 }
 
-export interface TorrentDataType {
-	title: string;
-	guid: string;
-	jackettindexer: string;
-	type: string;
-	comments: string;
-	pubDate: string;
+export interface FileInfo {
+	/** Index in the debrid/torrent file list. */
+	index: number;
+	name: string;
 	size: number;
-	description: string;
-	link: string;
-	category: Array<number>;
-	enclosure: string;
-	quality: string | null;
-	"torznab:attr": Array<string>;
 }
 
-export interface AnilistAnimeDataType {
-	id: number;
-	title: {
-		romaji: string | null;
-		english: string | null;
-		native: string | null;
-	};
-	episodes: number;
-	type: string;
-	format: string;
-	relations: {
-		edges: Array<{
-			relationType: string;
-			node: {
-				id: number;
-				title: {
-					romaji: string | null;
-					english: string | null;
-					native: string | null;
-				};
-				episodes: number;
-			};
-		}>;
+export interface Candidate extends RawTorrent {
+	sources: string[];
+	parsed: ParsedTitle;
+	resolution: Resolution;
+	qualityGroup: QualityGroup;
+	/** single = one episode/movie; pack = season/batch/complete that needs a file picked inside. */
+	kind: "single" | "pack";
+	languages: string[];
+	/** Set after the debrid availability check. */
+	cached?: boolean;
+	/** Chosen file inside the torrent, when known. */
+	file?: FileInfo;
+}
+
+export interface Stream {
+	name: string;
+	title?: string;
+	description?: string;
+	url?: string;
+	infoHash?: string;
+	fileIdx?: number;
+	sources?: string[];
+	behaviorHints?: {
+		bingeGroup?: string;
+		filename?: string;
+		videoSize?: number;
+		notWebReady?: boolean;
 	};
 }

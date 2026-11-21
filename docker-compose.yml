@@ -1,23 +1,52 @@
-version: "3.9"
-
 services:
+    # The addon. `docker compose up -d --build`
     app:
-        build: .
-        container_name: stremio-addon
-        restart: unless-stopped
+        build:
+            context: .
+            target: runtime
+        container_name: debridify
+        # Always up: starts with Docker at boot and comes back after crashes, even if it was stopped by hand.
+        restart: always
+        # Proper signal handling so restarts/shutdowns are instant instead of a 10s kill timeout.
+        init: true
+        # Uses ~90-120 MB in practice; the cap only guards against a runaway.
+        mem_limit: 512m
         ports:
             - "7000:7000"
         env_file:
-            - .env.docker
-        environment:
-            - NODE_ENV=production
-        depends_on:
-            - jackett
-            - redis
+            - .env
+        volumes:
+            - debridify-data:/data
+        # Keep Docker's log files bounded for a container that never stops (30 MB max).
+        logging:
+            driver: json-file
+            options:
+                max-size: "10m"
+                max-file: "3"
 
+    # Live-reload development server (source mounted from this folder).
+    # `docker compose --profile dev up dev`  (stop `app` first; both use port 7000)
+    # Also runs tooling: `docker compose run --rm dev npm test` / `npm run smoke -- tt0111161`
+    dev:
+        build:
+            context: .
+            target: dev
+        profiles: ["dev"]
+        ports:
+            - "7000:7000"
+        env_file:
+            - .env
+        volumes:
+            - ./src:/app/src
+            - ./test:/app/test
+            - ./scripts:/app/scripts
+            - debridify-data:/data
+
+    # Optional extra source. `docker compose --profile jackett up -d jackett`
     jackett:
         image: lscr.io/linuxserver/jackett:latest
         container_name: jackett
+        profiles: ["jackett"]
         restart: unless-stopped
         ports:
             - "9117:9117"
@@ -30,14 +59,5 @@ services:
             - AUTO_UPDATE=true
             - TZ=Asia/Karachi
 
-    redis:
-        image: redis:7-alpine
-        container_name: redis
-        ports:
-            - "6379:6379"
-        restart: unless-stopped
-        volumes:
-            - redis-data:/data
-
 volumes:
-    redis-data:
+    debridify-data:
